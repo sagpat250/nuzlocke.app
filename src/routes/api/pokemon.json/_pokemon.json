@@ -16097,8 +16097,8 @@
     }
   },
   {
-    "name": "Flabébé",
-    "label": "Flabébé",
+    "name": "Flabebe",
+    "label": "Flabebe",
     "sprite": "flabebe",
     "alias": "flabebe",
     "evoline": "flabebe",
@@ -16335,6 +16335,28 @@
     "evoline": "espurr",
     "evos": [],
     "imgId": 678,
+    "num": 811,
+    "types": [
+      "psychic"
+    ],
+    "total": 466,
+    "baseStats": {
+      "hp": 74,
+      "atk": 48,
+      "def": 76,
+      "spa": 83,
+      "spd": 81,
+      "spe": 104
+    }
+  },
+  {
+    "name": "Meowstic",
+    "label": "Meowstic",
+    "sprite": "meowstic",
+    "alias": "meowstic-female",
+    "evoline": "meowstic-female",
+    "evos": [],
+    "imgId": 10025,
     "num": 811,
     "types": [
       "psychic"
@@ -17125,6 +17147,29 @@
       "spa": 58,
       "spd": 75,
       "spe": 84
+    }
+  },
+  {
+    "name": "Gourgeist",
+    "label": "Gourgeist",
+    "sprite": "gourgeist-large",
+    "alias": "gourgeist-large",
+    "evoline": "pumpkaboo",
+    "evos": [],
+    "imgId": 10031,
+    "num": 848,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "total": 494,
+    "baseStats": {
+      "hp": 75,
+      "atk": 95,
+      "def": 122,
+      "spa": 58,
+      "spd": 75,
+      "spe": 69
     }
   },
   {

@@ -1859,6 +1859,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "aquacutter": {
+    "num": -1,
+    "name": "Aqua Cutter",
+    "alias": "aquacutter",
+    "slug": "aqua-cutter",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Water",
+    "basePower": 70,
+    "accuracy": 100,
+    "pp": 20,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "aquajet": {
     "num": 453,
     "name": "Aqua Jet",
@@ -2032,6 +2060,35 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "aquastep": {
+    "num": -1,
+    "name": "Aqua Step",
+    "alias": "aquastep",
+    "slug": "aqua-step",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Water",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "aquatail": {
     "num": 401,
@@ -5120,6 +5177,33 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "blazingtorque": {
+    "num": -1,
+    "name": "Blazing Torque",
+    "alias": "blazingtorque",
+    "slug": "blazing-torque",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Fire",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "blizzard": {
     "num": 59,
@@ -8875,6 +8959,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "chloroblast": {
+    "num": -1,
+    "name": "Chloroblast",
+    "alias": "chloroblast",
+    "slug": "chloroblast",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Grass",
+    "basePower": 150,
+    "accuracy": 95,
+    "pp": 5,
+    "category": "Special",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "circlethrow": {
     "num": 509,
     "name": "Circle Throw",
@@ -9690,6 +9802,33 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "combattorque": {
+    "num": -1,
+    "name": "Combat Torque",
+    "alias": "combattorque",
+    "slug": "combat-torque",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ground",
+    "basePower": 100,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "cometpunch": {
     "num": 4,
@@ -14123,6 +14262,35 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "doubleshock": {
+    "num": -1,
+    "name": "Double Shock",
+    "alias": "doubleshock",
+    "slug": "double-shock",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Electric",
+    "basePower": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "doubleslap": {
     "num": 3,
     "name": "Double Slap",
@@ -17873,6 +18041,34 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "esperwing": {
+    "num": -1,
+    "name": "Esper Wing",
+    "alias": "esperwing",
+    "slug": "esper-wing",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Psychic",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Special",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "eternabeam": {
     "num": 795,
@@ -21825,6 +22021,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "flowertrick": {
+    "num": -1,
+    "name": "Flower Trick",
+    "alias": "flowertrick",
+    "slug": "flower-trick",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Grass",
+    "basePower": 70,
+    "accuracy": -1,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "fly": {
     "num": 19,
     "name": "Fly",
@@ -24479,6 +24703,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "gigatonhammer": {
+    "num": -1,
+    "name": "Gigaton Hammer",
+    "alias": "gigatonhammer",
+    "slug": "gigaton-hammer",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Steel",
+    "basePower": 160,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "gigavolthavoc": {
     "num": 646,
     "name": "Gigavolt Havoc",
@@ -24741,6 +24993,35 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "glaiverush": {
+    "num": -1,
+    "name": "Glaive Rush",
+    "alias": "glaiverush",
+    "slug": "glaive-rush",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Dragon",
+    "basePower": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "glare": {
     "num": 137,
@@ -29783,6 +30064,38 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "headlongrush": {
+    "num": -1,
+    "name": "Headlong Rush",
+    "alias": "headlongrush",
+    "slug": "headlong-rush",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ground",
+    "basePower": 120,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {
+      "def": -1,
+      "spd": -1
+    },
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "headsmash": {
     "num": 457,
     "name": "Head Smash",
@@ -33657,6 +33970,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "hyperdrill": {
+    "num": -1,
+    "name": "Hyper Drill",
+    "alias": "hyperdrill",
+    "slug": "hyper-drill",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Normal",
+    "basePower": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "hyperfang": {
     "num": 158,
     "name": "Hyper Fang",
@@ -34746,6 +35087,35 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "icespinner": {
+    "num": -1,
+    "name": "Ice Spinner",
+    "alias": "icespinner",
+    "slug": "ice-spinner",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ice",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 15,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "iciclecrash": {
     "num": 556,
     "name": "Icicle Crash",
@@ -35189,6 +35559,37 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "infernalparade": {
+    "num": -1,
+    "name": "Infernal Parade",
+    "alias": "infernalparade",
+    "slug": "infernal-parade",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ghost",
+    "basePower": 60,
+    "accuracy": 100,
+    "pp": 15,
+    "category": "Spepcial",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {
+      "def": -1,
+      "spd": -1
+    },
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "inferno": {
     "num": 517,
@@ -36689,6 +37090,35 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "kowtowcleave": {
+    "num": -1,
+    "name": "Kowtow Cleave",
+    "alias": "kowtowcleave",
+    "slug": "kowtow-cleave",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Dark",
+    "basePower": 85,
+    "accuracy": -1,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "landswrath": {
     "num": 616,
@@ -38819,6 +39249,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "luminacrash": {
+    "num": -1,
+    "name": "Lumina Crash",
+    "alias": "luminacrash",
+    "slug": "lumina-crash",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Psychic",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Special",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "lunardance": {
     "num": 461,
     "name": "Lunar Dance",
@@ -39263,6 +39721,34 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "magicaltorque": {
+    "num": -1,
+    "name": "Magical Torque",
+    "alias": "magicaltorque",
+    "slug": "magical-torque",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Fairy",
+    "basePower": 100,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "magiccoat": {
     "num": 277,
@@ -44823,6 +45309,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "mountaingale": {
+    "num": -1,
+    "name": "Mountain Gale",
+    "alias": "mountaingale",
+    "slug": "mountain-gale",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ice",
+    "basePower": 100,
+    "accuracy": 85,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "mudbomb": {
     "num": 426,
     "name": "Mud Bomb",
@@ -46519,6 +47033,33 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "noxioustorque": {
+    "num": -1,
+    "name": "Noxious Torque",
+    "alias": "noxioustorque",
+    "slug": "noxious-torque",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Poison",
+    "basePower": 100,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "nuzzle": {
     "num": 609,
@@ -52920,6 +53461,35 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "ragefist": {
+    "num": -1,
+    "name": "Rage Fist",
+    "alias": "ragefist",
+    "slug": "rage-fist",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ghost",
+    "basePower": 50,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "ragepowder": {
     "num": 476,
@@ -63512,6 +64082,35 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "spinout": {
+    "num": -1,
+    "name": "Spin Out",
+    "alias": "spinout",
+    "slug": "spin-out",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Steel",
+    "basePower": 100,
+    "accuracy": 100,
+    "pp": 5,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "spiritbreak": {
     "num": 789,
     "name": "Spirit Break",
@@ -69434,6 +70033,34 @@
     "multiaccuracy": true,
     "onTryHit": true
   },
+  "terablast": {
+    "num": -1,
+    "name": "Tera Blast",
+    "alias": "terablast",
+    "slug": "tera-blast",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Normal",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "terrainpulse": {
     "num": 805,
     "name": "Terrain Pulse",
@@ -70886,6 +71513,34 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "torchsong": {
+    "num": -1,
+    "name": "Torch Song",
+    "alias": "torchsong",
+    "slug": "torch-song",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Fire",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Special",
+    "priority": 0,
+    "flags": {
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "torment": {
     "num": 259,
     "name": "Torment",
@@ -71241,6 +71896,35 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "trailblaze": {
+    "num": -1,
+    "name": "Trailblaze",
+    "alias": "trailblaze",
+    "slug": "trailblaze",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Grass",
+    "basePower": 50,
+    "accuracy": 100,
+    "pp": 20,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "transform": {
     "num": 144,
@@ -72929,6 +73613,31 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "victorydance": {
+    "num": -1,
+    "name": "Victory Dance",
+    "alias": "victorydance",
+    "slug": "victory-dance",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Fighting",
+    "basePower": 0,
+    "accuracy": -1,
+    "pp": 10,
+    "category": "Status",
+    "priority": 0,
+    "flags": {},
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"self",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "vinewhip": {
     "num": 22,
     "name": "Vine Whip",
@@ -74077,6 +74786,35 @@
     "struggleRecoil": true,
     "multiaccuracy": true
   },
+  "wavecrash": {
+    "num": -1,
+    "name": "Wave Crash",
+    "alias": "wavecrash",
+    "slug": "wave-crash",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Water",
+    "basePower": 120,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "contact": 1,
+      "protect": 1,
+      "mirror": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
+  },
   "weatherball": {
     "num": 311,
     "name": "Weather Ball",
@@ -74431,6 +75169,33 @@
     "stealsBoosts": true,
     "struggleRecoil": true,
     "multiaccuracy": true
+  },
+  "wickedtorque": {
+    "num": -1,
+    "name": "Wicked Torque",
+    "alias": "wickedtorque",
+    "slug": "wicked-torque",
+    "desc": null,
+    "shortDesc": null,
+    "type": "Ground",
+    "basePower": 80,
+    "accuracy": 100,
+    "pp": 10,
+    "category": "Physical",
+    "priority": 0,
+    "flags": {
+      "protect": 1
+    },
+    "isZ": null,
+    "critRatio": 0,
+    "secondary": null,
+    "target":"allAdjacent",
+    "isNonstandard": null,
+    "contestType": null,
+    "drain": [],
+    "boosts": {},
+    "zMove": null,
+    "TODO": "There are more fields, but we don't really need any"
   },
   "wideguard": {
     "num": 469,

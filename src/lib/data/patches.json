@@ -227,8 +227,8 @@
           "spd": 100
         }
       },
-      "jigglypuff ": {
-        "name": "jigglypuff ",
+      "jigglypuff": {
+        "name": "jigglypuff",
         "stats": {
           "hp": 128,
           "atk": 65,
@@ -3575,7 +3575,7 @@
       },
       "replicate": {
         "type": "psychic",
-        "effect": "Telepathically copies a move permanently ",
+        "effect": "Telepathically copies a move permanently",
         "category": "status"
       },
       "vol": {
@@ -3646,7 +3646,15 @@
           "espeon",
           "umbreon",
           "oreon"
-        ]
+        ],
+        "stats": {
+          "hp": 60,
+          "atk": 60,
+          "def": 60,
+          "spa": 60,
+          "spd": 60,
+          "spe": 60
+        }
       },
       "vaporeon": {
         "name": "vaporeon",
@@ -6124,9 +6132,10 @@
           "atk": 120,
           "def": 180,
           "spa": 120,
-          "spd": 180
+          "spd": 180,
+          "spe": 200
         },
-        "total": 800,
+        "total": 1000,
         "imgUrl": "/blazingem/metunn",
         "evoline": "metunn"
       },
@@ -6156,8 +6165,7 @@
   "emkaizo": {
     "move": {
       "rock-smash": {
-        "power": "40",
-        "effect": " "
+        "power": "40"
       },
       "drill-run": {
         "power": "80",
@@ -6260,7 +6268,7 @@
         "effect": "No effect"
       },
       "heat-wave": {
-        "power": "100 "
+        "power": "100"
       },
       "draco-meteor": {
         "power": "120",

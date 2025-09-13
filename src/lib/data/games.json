@@ -92,9 +92,9 @@
     "region": "hoenn",
     "patched": true,
     "lastUpdated": "30th March 2023",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -212,10 +212,8 @@
     "supported": true,
     "region": "unova",
     "difficulty": [":", "Challenge:c"],
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen6"
-    }
+    "patched": true,
+    "patchId": "pregen6"
   },
   "wh2": {
     "pid": "wh2",
@@ -226,10 +224,8 @@
     "supported": true,
     "region": "unova",
     "difficulty": [":", "Challenge:c"],
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen6"
-    }
+    "patched": true,
+    "patchId": "pregen6"
   },
   "blaze": {
     "pid": "blaze",
@@ -263,10 +259,8 @@
     "gen": "V",
     "supported": true,
     "region": "unova",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen6"
-    }
+    "patched": true,
+    "patchId": "pregen6"
   },
   "wh": {
     "pid": "wh",
@@ -276,10 +270,8 @@
     "gen": "V",
     "supported": true,
     "region": "unova",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen6"
-    }
+    "patched": true,
+    "patchId": "pregen6"
   },
   "bd": {
     "pid": "bd",
@@ -329,10 +321,8 @@
     "gen": "IV",
     "supported": true,
     "region": "sinnoh",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen5"
-    }
+    "patched": true,
+    "patchId": "pregen5"
   },
   "d": {
     "pid": "d",
@@ -342,10 +332,8 @@
     "gen": "IV",
     "supported": true,
     "region": "sinnoh",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen5"
-    }
+    "patched": true,
+    "patchId": "pregen5"
   },
   "p": {
     "pid": "p",
@@ -355,10 +343,8 @@
     "gen": "IV",
     "supported": true,
     "region": "sinnoh",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen5"
-    }
+    "patched": true,
+    "patchId": "pregen5"
   },
   "or": {
     "pid": "or",
@@ -380,14 +366,15 @@
   },
   "em": {
     "pid": "em",
+    "lid": "em",
     "logo": "emerald-logo",
     "title": "Emerald",
     "gen": "III",
     "supported": true,
     "region": "hoenn",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -399,7 +386,8 @@
     "gen": "romhack",
     "supported": true,
     "patched": true,
-    "region": "hoenn"
+    "region": "hoenn",
+    "patchId": "incem"
   },
   "ruby": {
     "pid": "ruby",
@@ -409,9 +397,9 @@
     "gen": "III",
     "supported": true,
     "region": "hoenn",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -423,9 +411,9 @@
     "gen": "III",
     "supported": true,
     "region": "hoenn",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -459,10 +447,8 @@
     "gen": "IV",
     "supported": true,
     "region": "johto",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen5"
-    }
+    "patched": true,
+    "patchId": "pregen5"
   },
   "ss": {
     "pid": "ss",
@@ -472,10 +458,8 @@
     "gen": "IV",
     "supported": true,
     "region": "johto",
-    "filter": {
-      "types": "pregen6",
-      "moves": "pregen5"
-    }
+    "patched": true,
+    "patchId": "pregen5"
   },
   "gold": {
     "pid": "gold",
@@ -485,9 +469,9 @@
     "gen": "II",
     "supported": true,
     "region": "johto",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -499,9 +483,9 @@
     "gen": "II",
     "supported": true,
     "region": "johto",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -513,9 +497,9 @@
     "gen": "II",
     "supported": true,
     "region": "johto",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -527,9 +511,9 @@
     "gen": "III",
     "supported": true,
     "region": "kanto",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -541,9 +525,9 @@
     "gen": "III",
     "supported": true,
     "region": "kanto",
+    "patched": true,
+    "patchId": "pregen5",
     "filter": {
-      "types": "pregen6",
-      "moves": "pregen5",
       "physicalSpecialSplit": true
     }
   },
@@ -551,12 +535,13 @@
     "pid": "yel",
     "title": "Yellow",
     "gen": "I",
+    "lid": "yel",
     "supported": true,
     "logo": "yellow-logo",
     "region": "kanto",
+    "patched": true,
+    "patchId": "pregen2",
     "filter": {
-      "types": "pregen2",
-      "moves": "pregen2",
       "physicalSpecialSplit": true
     }
   },
@@ -568,9 +553,9 @@
     "supported": true,
     "logo": "red-logo",
     "region": "kanto",
+    "patched": true,
+    "patchId": "pregen2",
     "filter": {
-      "types": "pregen2",
-      "moves": "pregen2",
       "physicalSpecialSplit": true
     }
   },
@@ -582,9 +567,9 @@
     "supported": true,
     "logo": "blue-logo",
     "region": "kanto",
+    "patched": true,
+    "patchId": "pregen2",
     "filter": {
-      "types": "pregen2",
-      "moves": "pregen2",
       "physicalSpecialSplit": true
     }
   }

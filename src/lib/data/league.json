@@ -61925,7 +61925,7 @@
           "name": "corphish",
           "level": "7",
           "moves": [
-            "vice-grip",
+            "vise-grip",
             "bubble",
             "harden",
             "leer"
@@ -84570,7 +84570,7 @@
           "name": "vikavolt",
           "level": "29",
           "moves": [
-            "vice-grip",
+            "vise-grip",
             "charge",
             "spark",
             "bug-bite"
@@ -84588,7 +84588,7 @@
             "thunder-wave",
             "string-shot",
             "mud-slap",
-            "vice-grip"
+            "vise-grip"
           ],
           "ability": "battery",
           "abilities": [
@@ -91696,7 +91696,7 @@
           "name": "klawf",
           "level": "16",
           "moves": [
-            "vice-grip",
+            "vise-grip",
             "rock-smash",
             "block",
             "rock-tomb"
@@ -106349,7 +106349,7 @@
           "name": "corphish",
           "level": "12",
           "moves": [
-            "vice-grip",
+            "vise-grip",
             "swords-dance"
           ],
           "ability": "shell-armor",
@@ -106497,7 +106497,7 @@
           "name": "corphish",
           "level": "16",
           "moves": [
-            "vice-grip",
+            "vise-grip",
             "swords-dance"
           ],
           "ability": "shell-armor",
