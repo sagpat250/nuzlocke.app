@@ -54,9 +54,9 @@
 
     const submit = (death) => {
       mode === 'new'
-        ? gameStore.update(patch({ [p.location]: { ...p, death } }))
+        ? gameStore.update(patch({ [p._id]: { ...p, death } }))
         : gameStore.update(
-            patch({ [p.location]: { ...p, death: { ...p.death, ...death } } })
+            patch({ [p._id]: { ...p, death: { ...p.death, ...death } } })
           )
     }
 
@@ -65,7 +65,8 @@
 
   const chunkSize = 6
   let graveyard = []
-  $: graveyard = Object.values(box)
+  $: graveyard = Object.keys(box)
+    .map(key => ({...box[key], _id: key}))
     .filter((i) => i.pokemon)
     .filter((i) => NuzlockeGroups.Dead.includes(i.status))
 
@@ -76,7 +77,7 @@
   )
 
   let showFog = true,
-    showAudio = true
+    showAudio = true;
 </script>
 
 <svelte:head>
@@ -117,7 +118,7 @@
 
       {#if showAudio}<Audio
           class="bottom-8 left-0 z-[999999] lg:fixed"
-          src="{IMG}/audio/lavender.mp3"
+          src="/audio/lavender.mp3"
         />{/if}
       {#if showFog}<Fog />{/if}
     {/if}
@@ -127,7 +128,7 @@
     <div class="mt-8 pb-48 sm:pb-64">
       {#each chunked as row, i}
         <GraveRow {i} maxRows={chunked.length}>
-          {#each row as p, j (locid(p))}
+          {#each row as p, j (p._id)}
             {@const result = summarise(p, bossData)}
 
             <div
