@@ -30,6 +30,7 @@
   setContext('game', {
     getLeague: fetchLeague,
     getAllPkmn: () => fetchData().then((res) => Object.values(res.aliasMap)),
+    getEncounterablePkmn: () => fetchData().then((res) => Object.values(res.aliasMap).filter((p) => p?.canEncounter)),
     getPkmn: (id) =>
       fetchData().then((p = {}) => {
         const nid = normalise(id)

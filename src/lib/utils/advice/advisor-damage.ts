@@ -17,7 +17,8 @@ interface IPokemon {
     level: number | string
     stats: IStats
     moves: IMove[]
-  }
+  },
+  canEncounter: boolean
 }
 
 interface IStats {

@@ -28,6 +28,7 @@ interface IPokemon {
   original: {
     moves: IMove[]
   }
+  canEncounter: boolean
 }
 
 // TODO: Add item modiications to damage output

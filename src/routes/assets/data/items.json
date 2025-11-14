@@ -10097,7 +10097,7 @@
   },
   "heavydutyboots": {
     "num": 1120,
-    "name": "Heavy-Duty Boots",
+    "name": "Heavy duty boots",
     "alias": "heavydutyboots",
     "sprite": "heavy-duty-boots",
     "gen": 8,
@@ -22676,9 +22676,9 @@
   },
   "stick": {
     "num": 259,
-    "name": "Stick",
+    "name": "Leek",
     "alias": "stick",
-    "sprite": "leek",
+    "sprite": "stick",
     "gen": 2,
     "desc": null,
     "shortDesc": null,
