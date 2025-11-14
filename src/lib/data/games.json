@@ -49,6 +49,7 @@
   },
   "rrss": {
     "pid": "rrss",
+    "lid": "rrss",
     "logo": "rising-ruby-logo",
     "title": "Rising Ruby",
     "gen": "romhack",
