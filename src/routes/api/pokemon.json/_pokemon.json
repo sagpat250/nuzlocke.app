@@ -284,6 +284,7 @@
   },
   {
     "name": "Blastoise",
+    "displayName": "Blastoise",
     "label": "Blastoise",
     "sprite": "blastoise",
     "alias": "blastoise",
@@ -20021,6 +20022,7 @@
   },
   {
     "name": "Hoopa",
+    "displayName": "Hoopa",
     "label": "Hoopa",
     "sprite": "hoopa",
     "alias": "hoopa",
@@ -20613,6 +20615,31 @@
     "name": "Oricorio",
 		"displayName": "Oricorio",
     "label": "Oricorio",
+    "sprite": "oricorio-pom-pom",
+    "alias": "oricorio",
+    "evoline": "oricorio",
+		"canEncounter": false,
+    "evos": [],
+    "imgId": 10123,
+    "num": 890,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "total": 476,
+    "baseStats": {
+      "hp": 75,
+      "atk": 70,
+      "def": 70,
+      "spa": 98,
+      "spd": 70,
+      "spe": 93
+    }
+  },
+  {
+    "name": "Oricorio",
+		"displayName": "Oricorio",
+    "label": "Oricorio",
     "sprite": "oricorio-pau",
     "alias": "oricorio-pau",
     "evoline": "oricorio",
@@ -20839,7 +20866,7 @@
 		"displayName": "Wishiwashi",
     "label": "Wishiwashi",
     "sprite": "wishiwashi-solo",
-    "alias": "wishiwashi-solo",
+    "alias": "wishiwashi",
     "evoline": "wishiwashi",
 		"canEncounter": true,
     "evos": [],
@@ -21701,6 +21728,31 @@
     "alias": "mimikyu-disguised",
     "evoline": "mimikyu",
 		"canEncounter": true,
+    "evos": [],
+    "imgId": 778,
+    "num": 951,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "total": 476,
+    "baseStats": {
+      "hp": 55,
+      "atk": 90,
+      "def": 80,
+      "spa": 50,
+      "spd": 105,
+      "spe": 96
+    }
+  },
+  {
+    "name": "Mimikyu",
+		"displayName": "Mimikyu",
+    "label": "Mimikyu",
+    "sprite": "mimikyu-disguised",
+    "alias": "mimikyu",
+    "evoline": "mimikyu",
+		"canEncounter": false,
     "evos": [],
     "imgId": 778,
     "num": 951,
@@ -24348,6 +24400,31 @@
     "alias": "indeedee-female",
     "evoline": "indeedee",
 		"canEncounter": true,
+    "evos": [],
+    "imgId": 10186,
+    "num": 1061,
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "total": 475,
+    "baseStats": {
+      "hp": 70,
+      "atk": 55,
+      "def": 65,
+      "spa": 95,
+      "spd": 105,
+      "spe": 85
+    }
+  },
+  {
+    "name": "Indeedee",
+		"displayName": "Indeedee",
+    "label": "Indeedee",
+    "sprite": "indeedee-f",
+    "alias": "indeedee-f",
+    "evoline": "indeedee",
+		"canEncounter": false,
     "evos": [],
     "imgId": 10186,
     "num": 1061,
