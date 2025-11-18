@@ -9810,7 +9810,7 @@
     "slug": "combat-torque",
     "desc": null,
     "shortDesc": null,
-    "type": "Ground",
+    "type": "Fighting",
     "basePower": 100,
     "accuracy": 100,
     "pp": 10,
@@ -31338,7 +31338,7 @@
   },
   "hiddenpowerbug": {
     "num": 237,
-    "name": "Hidden Power Bug",
+    "name": "Hidden Power",
     "alias": "hiddenpowerbug",
     "slug": "hidden-power-bug",
     "desc": null,
@@ -31425,7 +31425,7 @@
   },
   "hiddenpowerdark": {
     "num": 237,
-    "name": "Hidden Power Dark",
+    "name": "Hidden Power",
     "alias": "hiddenpowerdark",
     "slug": "hidden-power-dark",
     "desc": null,
@@ -31512,7 +31512,7 @@
   },
   "hiddenpowerdragon": {
     "num": 237,
-    "name": "Hidden Power Dragon",
+    "name": "Hidden Power",
     "alias": "hiddenpowerdragon",
     "slug": "hidden-power-dragon",
     "desc": null,
@@ -31599,7 +31599,7 @@
   },
   "hiddenpowerelectric": {
     "num": 237,
-    "name": "Hidden Power Electric",
+    "name": "Hidden Power",
     "alias": "hiddenpowerelectric",
     "slug": "hidden-power-electric",
     "desc": null,
@@ -31686,7 +31686,7 @@
   },
   "hiddenpowerfighting": {
     "num": 237,
-    "name": "Hidden Power Fighting",
+    "name": "Hidden Power",
     "alias": "hiddenpowerfighting",
     "slug": "hidden-power-fighting",
     "desc": null,
@@ -31773,7 +31773,7 @@
   },
   "hiddenpowerfire": {
     "num": 237,
-    "name": "Hidden Power Fire",
+    "name": "Hidden Power",
     "alias": "hiddenpowerfire",
     "slug": "hidden-power-fire",
     "desc": null,
@@ -31860,7 +31860,7 @@
   },
   "hiddenpowerflying": {
     "num": 237,
-    "name": "Hidden Power Flying",
+    "name": "Hidden Power",
     "alias": "hiddenpowerflying",
     "slug": "hidden-power-flying",
     "desc": null,
@@ -31947,7 +31947,7 @@
   },
   "hiddenpowerghost": {
     "num": 237,
-    "name": "Hidden Power Ghost",
+    "name": "Hidden Power",
     "alias": "hiddenpowerghost",
     "slug": "hidden-power-ghost",
     "desc": null,
@@ -32034,7 +32034,7 @@
   },
   "hiddenpowergrass": {
     "num": 237,
-    "name": "Hidden Power Grass",
+    "name": "Hidden Power",
     "alias": "hiddenpowergrass",
     "slug": "hidden-power-grass",
     "desc": null,
@@ -32121,7 +32121,7 @@
   },
   "hiddenpowerground": {
     "num": 237,
-    "name": "Hidden Power Ground",
+    "name": "Hidden Power",
     "alias": "hiddenpowerground",
     "slug": "hidden-power-ground",
     "desc": null,
@@ -32208,7 +32208,7 @@
   },
   "hiddenpowerice": {
     "num": 237,
-    "name": "Hidden Power Ice",
+    "name": "Hidden Power",
     "alias": "hiddenpowerice",
     "slug": "hidden-power-ice",
     "desc": null,
@@ -32295,7 +32295,7 @@
   },
   "hiddenpowerpoison": {
     "num": 237,
-    "name": "Hidden Power Poison",
+    "name": "Hidden Power",
     "alias": "hiddenpowerpoison",
     "slug": "hidden-power-poison",
     "desc": null,
@@ -32382,7 +32382,7 @@
   },
   "hiddenpowerpsychic": {
     "num": 237,
-    "name": "Hidden Power Psychic",
+    "name": "Hidden Power",
     "alias": "hiddenpowerpsychic",
     "slug": "hidden-power-psychic",
     "desc": null,
@@ -32469,7 +32469,7 @@
   },
   "hiddenpowerrock": {
     "num": 237,
-    "name": "Hidden Power Rock",
+    "name": "Hidden Power",
     "alias": "hiddenpowerrock",
     "slug": "hidden-power-rock",
     "desc": null,
@@ -32556,7 +32556,7 @@
   },
   "hiddenpowersteel": {
     "num": 237,
-    "name": "Hidden Power Steel",
+    "name": "Hidden Power",
     "alias": "hiddenpowersteel",
     "slug": "hidden-power-steel",
     "desc": null,
@@ -32643,7 +32643,7 @@
   },
   "hiddenpowerwater": {
     "num": 237,
-    "name": "Hidden Power Water",
+    "name": "Hidden Power",
     "alias": "hiddenpowerwater",
     "slug": "hidden-power-water",
     "desc": null,
@@ -36922,7 +36922,7 @@
   },
   "kingsshield": {
     "num": 588,
-    "name": "King's Shield",
+    "name": "King’s Shield",
     "alias": "kingsshield",
     "slug": "kings-shield",
     "desc": null,
@@ -55263,7 +55263,7 @@
   },
   "roaroftime": {
     "num": 459,
-    "name": "Roar of Time",
+    "name": "Roar Of Time",
     "alias": "roaroftime",
     "slug": "roar-of-time",
     "desc": null,
@@ -70044,7 +70044,7 @@
     "basePower": 80,
     "accuracy": 100,
     "pp": 10,
-    "category": "Physical",
+    "category": "Special",
     "priority": 0,
     "flags": {
       "protect": 1,
@@ -75177,7 +75177,7 @@
     "slug": "wicked-torque",
     "desc": null,
     "shortDesc": null,
-    "type": "Ground",
+    "type": "Dark",
     "basePower": 80,
     "accuracy": 100,
     "pp": 10,

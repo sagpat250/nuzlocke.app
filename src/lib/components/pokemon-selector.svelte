@@ -78,7 +78,7 @@
     prevstatus = null
   })
 
-  const { getAllPkmn, getPkmn, getPkmns } = getContext('game')
+  const { getAllPkmn, getPkmn, getPkmns, getEncounterablePkmn } = getContext('game')
   const dispatch = createEventDispatcher()
 
   let loading = true
@@ -328,7 +328,7 @@
 
             <AutoCompleteV2
               inset={selected ? true : '2.4em'}
-              itemF={(_) => (fetchSearch ? getAllPkmn() : encounterF())}
+              itemF={(_) => (fetchSearch ? getEncounterablePkmn() : encounterF())}
               max={fetchSearch ? 16 : (encounters || []).length}
               on:change={(_) => (search = null)}
               bind:search

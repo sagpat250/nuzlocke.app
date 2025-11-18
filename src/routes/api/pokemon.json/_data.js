@@ -29,7 +29,8 @@ const props = [
   'imgId',
   'baseStats',
   'total',
-  'num'
+  'num',
+  'canEncounter'
 ];
 
 export const filterdata = (o) =>
