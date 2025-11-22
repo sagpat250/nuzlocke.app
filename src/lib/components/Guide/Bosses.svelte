@@ -16,8 +16,9 @@
 
   const rivalVal = gyms['Rival'][0].value
   const champVal = gyms['Elite Four'].slice(-2)[0].value
-  const rivalData = data.fire[rivalVal]
-  const champData = data.fire[champVal]
+  // TODO : Fix the games whose guides are failing
+  const rivalData = data?.fire[rivalVal] ?? { name: 'your rival', pokemon: [{ name: 'Pokemon'}] }
+  const champData = data.fire[champVal] ?? { name: 'the champion', pokemon: [{ name: 'Pokemon'}] }
 
   let starter = 'fire'
   const setstarter = type => _ => starter = type

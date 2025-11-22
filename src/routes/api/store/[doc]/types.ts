@@ -6,7 +6,7 @@ const EGame = z.enum([
     'glazed',
     'blaze', 'volt', 'rrss', 'emrunbun', 'unbound',
     'unbound_exp', 'radred_hard', 'emkaizo', 'vi', 'sc', 'sw', 'sh',
-    'usun', 'umoon', 'sun', 'moon', 'x', 'y', 'blazevolt2',
+    'usun', 'umoon', 'sun', 'moon', 'x', 'y', 'blazevolt2_n',
     'blazevolt2_c', 'bl2', 'wh2', 'bl2c', 'wh2c', 'bl', 'wh', 'bd',
     'sp', 'radred', 'renplat', 'pt', 'd', 'p', 'or', 'as', 'em',
     'incem', 'ruby', 'saph', 'stormsilv', 'sacredgold', 'hg', 'ss',

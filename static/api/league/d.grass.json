@@ -12,18 +12,19 @@
             "power": 50,
             "type": "rock",
             "damage_class": "physical",
-            "name": "Rock Throw"
+            "name": "Rock Throw",
+            "effect": ""
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Stealth Rock",
-            "effect": "Causes damage when opposing Pokémon switch in."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Rock Head",
-          "effect": "Protects against recoil damage."
+          "effect": ""
         },
         "sprite": "74",
         "types": [
@@ -47,24 +48,25 @@
             "power": 50,
             "type": "rock",
             "damage_class": "physical",
-            "name": "Rock Throw"
+            "name": "Rock Throw",
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Screech",
-            "effect": "Lowers the target's Defense by two stages."
+            "effect": ""
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Stealth Rock",
-            "effect": "Causes damage when opposing Pokémon switch in."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Rock Head",
-          "effect": "Protects against recoil damage."
+          "effect": ""
         },
         "sprite": "95",
         "types": [
@@ -89,25 +91,25 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Headbutt",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "dark",
             "damage_class": "physical",
             "name": "Pursuit",
-            "effect": "Has double power against, and can hit, Pokémon attempting to switch out."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Mold Breaker",
-          "effect": "Bypasses targets' abilities if they could hinder or prevent a move."
+          "effect": ""
         },
         "sprite": "408",
         "types": [
@@ -137,30 +139,30 @@
             "type": "grass",
             "damage_class": "special",
             "name": "Grass Knot",
-            "effect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Leech Seed",
-            "effect": "Seeds the target, stealing HP from it every turn."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Safeguard",
-            "effect": "Protects the user's field from major status ailments and confusion for five turns."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Growth",
-            "effect": "Raises the user's Attack and Special Attack by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Chlorophyll",
-          "effect": "Doubles Speed during strong sunlight."
+          "effect": ""
         },
         "sprite": "420",
         "types": [
@@ -184,30 +186,30 @@
             "type": "grass",
             "damage_class": "physical",
             "name": "Razor Leaf",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "special",
             "name": "Grass Knot",
-            "effect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+            "effect": ""
           },
           {
             "type": "water",
             "damage_class": "status",
             "name": "Withdraw",
-            "effect": "Raises the user's Defense by one stage."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Reflect",
-            "effect": "Reduces damage from physical attacks by half."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Overgrow",
-          "effect": "Strengthens grass moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "sprite": "387",
         "types": [
@@ -231,36 +233,36 @@
             "type": "grass",
             "damage_class": "special",
             "name": "Magical Leaf",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "special",
             "name": "Grass Knot",
-            "effect": "Inflicts more damage to heavier targets, with a maximum of 120 power."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Stun Spore",
-            "effect": "Paralyzes the target."
+            "effect": ""
           },
           {
             "power": 15,
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Sting",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "407",
         "types": [
@@ -292,32 +294,32 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Confusion",
-            "effect": "Has a 10% chance to confuse the target."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Meditate",
-            "effect": "Raises the user's Attack by one stage."
+            "effect": ""
           },
           {
-            "priority": 4,
             "type": "fighting",
             "damage_class": "status",
             "name": "Detect",
-            "effect": "Prevents any moves from hitting the user this turn."
+            "effect": "",
+            "priority": 4
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Drain Punch",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pure Power",
-          "effect": "Doubles Attack in battle."
+          "effect": ""
         },
         "sprite": "307",
         "types": [
@@ -342,31 +344,31 @@
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Foresight",
-            "effect": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "rock",
             "damage_class": "physical",
             "name": "Rock Tomb",
-            "effect": "Has a 100% chance to lower the target's Speed by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Guts",
-          "effect": "Increases Attack to 1.5× with a major status ailment."
+          "effect": ""
         },
         "sprite": "67",
         "types": [
@@ -390,38 +392,38 @@
             "type": "fighting",
             "damage_class": "physical",
             "name": "Drain Punch",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Force Palm",
-            "effect": "Has a 30% chance to paralyze the target."
+            "effect": ""
           },
           {
             "power": 50,
             "type": "steel",
             "damage_class": "physical",
             "name": "Metal Claw",
-            "effect": "Has a 10% chance to raise the user's Attack by one stage."
+            "effect": ""
           },
           {
             "power": 25,
             "type": "ground",
             "damage_class": "physical",
             "name": "Bone Rush",
-            "effect": "Hits 2-5 times in one turn."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Steadfast",
-          "effect": "Raises Speed one stage upon flinching."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "448",
         "types": [
@@ -453,31 +455,31 @@
             "type": "water",
             "damage_class": "special",
             "name": "Brine",
-            "effect": "Has double power against Pokémon that have less than half their max HP remaining."
+            "effect": ""
           },
           {
             "type": "dragon",
             "damage_class": "special",
             "name": "Dragon Rage",
-            "effect": "Inflicts 40 points of damage."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Swagger",
-            "effect": "Raises the target's Attack by two stages and confuses the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Intimidate",
-          "effect": "Lowers opponents' Attack one stage upon entering battle."
+          "effect": ""
         },
         "sprite": "130",
         "types": [
@@ -502,30 +504,31 @@
             "type": "ground",
             "damage_class": "special",
             "name": "Mud Bomb",
-            "effect": "Has a 30% chance to lower the target's accuracy by one stage."
+            "effect": ""
           },
           {
             "type": "ground",
             "damage_class": "status",
             "name": "Mud Sport",
-            "effect": "Halves all Electric-type damage."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Slam"
+            "name": "Slam",
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Tail Whip",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Damp",
-          "effect": "Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+          "effect": ""
         },
         "sprite": "195",
         "types": [
@@ -550,38 +553,38 @@
             "type": "water",
             "damage_class": "special",
             "name": "Brine",
-            "effect": "Has double power against Pokémon that have less than half their max HP remaining."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Fang",
-            "effect": "Has a 10% chance to freeze the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "dark",
             "damage_class": "physical",
             "name": "Pursuit",
-            "effect": "Has double power against, and can hit, Pokémon attempting to switch out."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "normal",
             "damage_class": "special",
             "name": "Swift",
-            "effect": "Never misses."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swift Swim",
-          "effect": "Doubles Speed during rain."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "419",
         "types": [
@@ -612,32 +615,32 @@
             "type": "ghost",
             "damage_class": "special",
             "name": "Ominous Wind",
-            "effect": "Has a 10% chance to raise all of the user's stats by one stage."
+            "effect": ""
           },
           {
             "power": 30,
             "type": "ghost",
             "damage_class": "physical",
             "name": "Astonish",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Minimize",
-            "effect": "Raises the user's evasion by two stages."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "flying",
             "damage_class": "special",
             "name": "Gust",
-            "effect": "Inflicts regular damage and can hit Pokémon in the air."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Aftermath",
-          "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+          "effect": ""
         },
         "sprite": "426",
         "types": [
@@ -661,32 +664,32 @@
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 70,
             "type": "ghost",
             "damage_class": "physical",
             "name": "Shadow Claw",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Jab",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Spite",
-            "effect": "Lowers the PP of the target's last used move by 4."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "94",
         "types": [
@@ -710,38 +713,38 @@
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "psychic",
             "damage_class": "special",
             "name": "Psybeam",
-            "effect": "Has a 10% chance to confuse the target."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "grass",
             "damage_class": "special",
             "name": "Magical Leaf",
-            "effect": "Never misses."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "429",
         "types": [
@@ -772,31 +775,31 @@
             "type": "steel",
             "damage_class": "special",
             "name": "Flash Cannon",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Hypnosis",
-            "effect": "Puts the target to sleep."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "436",
         "types": [
@@ -820,32 +823,32 @@
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dragon",
             "damage_class": "special",
             "name": "Dragon Breath",
-            "effect": "Has a 30% chance to paralyze the target."
+            "effect": ""
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Sandstorm",
-            "effect": "Changes the weather to a sandstorm for five turns."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Fang",
-            "effect": "Has a 10% chance to freeze the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sturdy",
-          "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+          "effect": ""
         },
         "sprite": "208",
         "types": [
@@ -870,36 +873,36 @@
             "type": "steel",
             "damage_class": "special",
             "name": "Flash Cannon",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "steel",
             "damage_class": "status",
             "name": "Iron Defense",
-            "effect": "Raises the user's Defense by two stages."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "rock",
             "damage_class": "special",
             "name": "Ancient Power",
-            "effect": "Has a 10% chance to raise all of the user's stats by one stage."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Rest",
-            "effect": "User sleeps for two turns, completely healing itself."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sturdy",
-          "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+          "effect": ""
         },
         "held": {
           "sprite": "chesto-berry",
           "name": "Chesto Berry",
-          "effect": "Held: Consumed when asleep to cure sleep."
+          "effect": ""
         },
         "sprite": "411",
         "types": [
@@ -931,31 +934,32 @@
             "type": "grass",
             "damage_class": "physical",
             "name": "Razor Leaf",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Ingrain",
-            "effect": "Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "ice",
             "damage_class": "physical",
-            "name": "Ice Shard"
+            "name": "Ice Shard",
+            "effect": "",
+            "priority": 1
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Snow Warning",
-          "effect": "Summons hail that lasts indefinitely upon entering battle."
+          "effect": ""
         },
         "sprite": "459",
         "types": [
@@ -979,34 +983,34 @@
             "type": "dark",
             "damage_class": "status",
             "name": "Taunt",
-            "effect": "For the next few turns, the target can only use damaging moves."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Feint Attack",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "power": 60,
-            "priority": -4,
             "type": "ice",
             "damage_class": "physical",
             "name": "Avalanche",
-            "effect": "Inflicts double damage if the user takes damage before attacking this turn."
+            "effect": "",
+            "priority": -4
           },
           {
             "power": 70,
             "type": "normal",
             "damage_class": "physical",
             "name": "Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "215",
         "types": [
@@ -1030,33 +1034,33 @@
             "type": "fighting",
             "damage_class": "status",
             "name": "Bulk Up",
-            "effect": "Raises the user's Attack and Defense by one stage."
+            "effect": ""
           },
           {
-            "priority": 4,
             "type": "fighting",
             "damage_class": "status",
             "name": "Detect",
-            "effect": "Prevents any moves from hitting the user this turn."
+            "effect": "",
+            "priority": 4
           },
           {
             "power": 60,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Force Palm",
-            "effect": "Has a 30% chance to paralyze the target."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Punch",
-            "effect": "Has a 10% chance to freeze the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pure Power",
-          "effect": "Doubles Attack in battle."
+          "effect": ""
         },
         "sprite": "308",
         "types": [
@@ -1081,37 +1085,37 @@
             "type": "grass",
             "damage_class": "physical",
             "name": "Wood Hammer",
-            "effect": "User receives 1/3 the damage inflicted in recoil."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Grass Whistle",
-            "effect": "Puts the target to sleep."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Swagger",
-            "effect": "Raises the target's Attack by two stages and confuses the target."
+            "effect": ""
           },
           {
             "power": 60,
-            "priority": -4,
             "type": "ice",
             "damage_class": "physical",
             "name": "Avalanche",
-            "effect": "Inflicts double damage if the user takes damage before attacking this turn."
+            "effect": "",
+            "priority": -4
           }
         ],
         "ability": {
           "name": "Snow Warning",
-          "effect": "Summons hail that lasts indefinitely upon entering battle."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "460",
         "types": [
@@ -1143,31 +1147,31 @@
             "type": "electric",
             "damage_class": "special",
             "name": "Charge Beam",
-            "effect": "Has a 70% chance to raise the user's Special Attack by one stage."
+            "effect": ""
           },
           {
             "type": "electric",
             "damage_class": "status",
             "name": "Thunder Wave",
-            "effect": "Paralyzes the target."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Light Screen",
-            "effect": "Reduces damage from special attacks by 50% for five turns."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Static",
-          "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+          "effect": ""
         },
         "sprite": "26",
         "types": [
@@ -1190,31 +1194,31 @@
             "type": "normal",
             "damage_class": "status",
             "name": "Baton Pass",
-            "effect": "Allows the trainer to switch out the user and pass effects along to its replacement."
+            "effect": ""
           },
           {
             "type": "dark",
             "damage_class": "status",
             "name": "Nasty Plot",
-            "effect": "Raises the user's Special Attack by two stages."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Agility",
-            "effect": "Raises the user's Speed by two stages."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "electric",
             "damage_class": "special",
             "name": "Shock Wave",
-            "effect": "Never misses."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Technician",
-          "effect": "Strengthens moves of 60 base power or less to 1.5× their power."
+          "effect": ""
         },
         "sprite": "424",
         "types": [
@@ -1238,33 +1242,33 @@
             "type": "water",
             "damage_class": "special",
             "name": "Octazooka",
-            "effect": "Has a 50% chance to lower the target's accuracy by one stage."
+            "effect": ""
           },
           {
             "power": 50,
             "type": "electric",
             "damage_class": "special",
             "name": "Charge Beam",
-            "effect": "Has a 70% chance to raise the user's Special Attack by one stage."
+            "effect": ""
           },
           {
             "power": 25,
             "type": "grass",
             "damage_class": "physical",
             "name": "Bullet Seed",
-            "effect": "Hits 2-5 times in one turn."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "ice",
             "damage_class": "special",
             "name": "Aurora Beam",
-            "effect": "Has a 10% chance to lower the target's Attack by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sniper",
-          "effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+          "effect": ""
         },
         "sprite": "224",
         "types": [
@@ -1288,37 +1292,37 @@
             "type": "electric",
             "damage_class": "physical",
             "name": "Thunder Fang",
-            "effect": "Has a 10% chance to paralyze the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 50,
             "type": "electric",
             "damage_class": "special",
             "name": "Charge Beam",
-            "effect": "Has a 70% chance to raise the user's Special Attack by one stage."
+            "effect": ""
           },
           {
             "type": "electric",
             "damage_class": "status",
             "name": "Thunder Wave",
-            "effect": "Paralyzes the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "dark",
             "damage_class": "physical",
             "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Rivalry",
-          "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "405",
         "types": [
@@ -1346,21 +1350,22 @@
         "moves": [
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Growl",
-            "effect": "Lowers the target's Attack by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Keen Eye",
-          "effect": "Prevents accuracy from being lowered."
+          "effect": ""
         },
         "sprite": "396",
         "types": [
@@ -1384,18 +1389,19 @@
             "power": 40,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Scratch"
+            "name": "Scratch",
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "390",
@@ -1413,207 +1419,6 @@
       }
     ]
   },
-  "mars1": {
-    "name": "Mars",
-    "speciality": "",
-    "img": "/leaders/dp-mars",
-    "pokemon": [
-      {
-        "name": "zubat",
-        "level": "14",
-        "moves": [
-          {
-            "power": 60,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
-          },
-          {
-            "power": 80,
-            "type": "bug",
-            "damage_class": "physical",
-            "name": "Leech Life",
-            "effect": "Drains half the damage inflicted to heal the user."
-          },
-          {
-            "type": "poison",
-            "damage_class": "status",
-            "name": "Toxic",
-            "effect": "Badly poisons the target, inflicting more damage every turn."
-          }
-        ],
-        "ability": {
-          "name": "Inner Focus",
-          "effect": "Prevents flinching."
-        },
-        "sprite": "41",
-        "types": [
-          "poison",
-          "flying"
-        ],
-        "stats": {
-          "hp": 40,
-          "atk": 45,
-          "def": 35,
-          "spa": 30,
-          "spd": 40,
-          "spe": 55
-        }
-      },
-      {
-        "name": "purugly",
-        "level": "16",
-        "moves": [
-          {
-            "power": 40,
-            "priority": 3,
-            "type": "normal",
-            "damage_class": "physical",
-            "name": "Fake Out",
-            "effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
-          },
-          {
-            "power": 40,
-            "type": "normal",
-            "damage_class": "physical",
-            "name": "Scratch"
-          },
-          {
-            "power": 60,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Feint Attack",
-            "effect": "Never misses."
-          }
-        ],
-        "ability": {
-          "name": "Thick Fat",
-          "effect": "Halves damage from fire and ice moves."
-        },
-        "held": {
-          "sprite": "oran-berry",
-          "name": "Oran Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 10 HP."
-        },
-        "sprite": "432",
-        "types": [
-          "normal"
-        ],
-        "stats": {
-          "hp": 71,
-          "atk": 82,
-          "def": 64,
-          "spa": 64,
-          "spd": 59,
-          "spe": 112
-        }
-      }
-    ]
-  },
-  "jup1": {
-    "name": "Jupiter",
-    "speciality": "",
-    "img": "/leaders/dp-jupiter",
-    "pokemon": [
-      {
-        "name": "zubat",
-        "level": "18",
-        "moves": [
-          {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Wing Attack"
-          },
-          {
-            "power": 75,
-            "type": "grass",
-            "damage_class": "special",
-            "name": "Giga Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
-          },
-          {
-            "power": 60,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
-          }
-        ],
-        "ability": {
-          "name": "Inner Focus",
-          "effect": "Prevents flinching."
-        },
-        "sprite": "41",
-        "types": [
-          "poison",
-          "flying"
-        ],
-        "stats": {
-          "hp": 40,
-          "atk": 45,
-          "def": 35,
-          "spa": 30,
-          "spd": 40,
-          "spe": 55
-        }
-      },
-      {
-        "name": "skuntank",
-        "level": "20",
-        "moves": [
-          {
-            "power": 70,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
-          },
-          {
-            "type": "poison",
-            "damage_class": "status",
-            "name": "Poison Gas",
-            "effect": "Poisons the target."
-          },
-          {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "Smokescreen",
-            "effect": "Lowers the target's accuracy by one stage."
-          },
-          {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "Screech",
-            "effect": "Lowers the target's Defense by two stages."
-          }
-        ],
-        "ability": {
-          "name": "Stench",
-          "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
-        },
-        "held": {
-          "sprite": "sitrus-berry",
-          "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
-        },
-        "sprite": "435",
-        "types": [
-          "poison",
-          "dark"
-        ],
-        "stats": {
-          "hp": 103,
-          "atk": 93,
-          "def": 67,
-          "spa": 71,
-          "spd": 61,
-          "spe": 84
-        }
-      }
-    ]
-  },
   "b2": {
     "name": "Barry",
     "speciality": "",
@@ -1627,31 +1432,33 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Endeavor",
-            "effect": "Lowers the target's HP to equal the user's."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
-            "name": "Wing Attack"
+            "name": "Wing Attack",
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           }
         ],
         "ability": {
           "name": "Keen Eye",
-          "effect": "Prevents accuracy from being lowered."
+          "effect": ""
         },
         "sprite": "396",
         "types": [
@@ -1676,31 +1483,31 @@
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Sting",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Stun Spore",
-            "effect": "Paralyzes the target."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "grass",
             "damage_class": "special",
             "name": "Mega Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Leech Seed",
-            "effect": "Seeds the target, stealing HP from it every turn."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "315",
@@ -1726,31 +1533,33 @@
             "type": "dark",
             "damage_class": "physical",
             "name": "Pursuit",
-            "effect": "Has double power against, and can hit, Pokémon attempting to switch out."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Growl",
-            "effect": "Lowers the target's Attack by one stage."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "water",
             "damage_class": "special",
-            "name": "Water Gun"
+            "name": "Water Gun",
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           }
         ],
         "ability": {
           "name": "Swift Swim",
-          "effect": "Doubles Speed during rain."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "418",
@@ -1775,32 +1584,33 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Fury Swipes",
-            "effect": "Hits 2-5 times in one turn."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "fighting",
             "damage_class": "physical",
-            "name": "Mach Punch"
+            "name": "Mach Punch",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 60,
             "type": "fire",
             "damage_class": "physical",
             "name": "Flame Wheel",
-            "effect": "Has a 10% chance to burn the target.  Lets frozen Pokémon thaw themselves."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "391",
@@ -1832,31 +1642,33 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Endeavor",
-            "effect": "Lowers the target's HP to equal the user's."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
-            "name": "Wing Attack"
+            "name": "Wing Attack",
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           }
         ],
         "ability": {
           "name": "Keen Eye",
-          "effect": "Prevents accuracy from being lowered."
+          "effect": ""
         },
         "sprite": "396",
         "types": [
@@ -1881,32 +1693,32 @@
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Sting",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "type": "poison",
             "damage_class": "status",
             "name": "Toxic Spikes",
-            "effect": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in."
+            "effect": ""
           },
           {
             "power": 40,
             "type": "grass",
             "damage_class": "special",
             "name": "Mega Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "grass",
             "damage_class": "special",
             "name": "Magical Leaf",
-            "effect": "Never misses."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "315",
@@ -1932,32 +1744,34 @@
             "type": "dark",
             "damage_class": "physical",
             "name": "Pursuit",
-            "effect": "Has double power against, and can hit, Pokémon attempting to switch out."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "water",
             "damage_class": "physical",
-            "name": "Aqua Jet"
+            "name": "Aqua Jet",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Growl",
-            "effect": "Lowers the target's Attack by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swift Swim",
-          "effect": "Doubles Speed during rain."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "418",
@@ -1982,32 +1796,33 @@
             "type": "normal",
             "damage_class": "physical",
             "name": "Fury Swipes",
-            "effect": "Hits 2-5 times in one turn."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Leer",
-            "effect": "Lowers the target's Defense by one stage."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "fighting",
             "damage_class": "physical",
-            "name": "Mach Punch"
+            "name": "Mach Punch",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 60,
             "type": "fire",
             "damage_class": "physical",
             "name": "Flame Wheel",
-            "effect": "Has a 10% chance to burn the target.  Lets frozen Pokémon thaw themselves."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "391",
@@ -2040,32 +1855,33 @@
             "type": "flying",
             "damage_class": "physical",
             "name": "Aerial Ace",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "normal",
             "damage_class": "physical",
             "name": "Take Down",
-            "effect": "User receives 1/4 the damage it inflicts in recoil."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           }
         ],
         "ability": {
           "name": "Keen Eye",
-          "effect": "Prevents accuracy from being lowered."
+          "effect": ""
         },
         "sprite": "397",
         "types": [
@@ -2089,33 +1905,34 @@
             "power": 65,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Horn Attack"
+            "name": "Horn Attack",
+            "effect": ""
           },
           {
             "power": 70,
             "type": "dark",
             "damage_class": "physical",
             "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
             "name": "Aerial Ace",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swarm",
-          "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "sprite": "214",
         "types": [
@@ -2140,30 +1957,30 @@
             "type": "grass",
             "damage_class": "special",
             "name": "Giga Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Grass Whistle",
-            "effect": "Puts the target to sleep."
+            "effect": ""
           },
           {
             "type": "grass",
             "damage_class": "status",
             "name": "Leech Seed",
-            "effect": "Seeds the target, stealing HP from it every turn."
+            "effect": ""
           },
           {
             "type": "poison",
             "damage_class": "status",
             "name": "Toxic Spikes",
-            "effect": "Scatters poisoned spikes, poisoning opposing Pokémon that switch in."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "315",
@@ -2189,33 +2006,35 @@
             "type": "dark",
             "damage_class": "physical",
             "name": "Pursuit",
-            "effect": "Has double power against, and can hit, Pokémon attempting to switch out."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "water",
             "damage_class": "physical",
-            "name": "Aqua Jet"
+            "name": "Aqua Jet",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "normal",
             "damage_class": "physical",
-            "name": "Quick Attack"
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 60,
             "type": "normal",
             "damage_class": "special",
             "name": "Swift",
-            "effect": "Never misses."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swift Swim",
-          "effect": "Doubles Speed during rain."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "418",
@@ -2240,33 +2059,34 @@
             "type": "fire",
             "damage_class": "physical",
             "name": "Flame Wheel",
-            "effect": "Has a 10% chance to burn the target.  Lets frozen Pokémon thaw themselves."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
             "name": "Aerial Ace",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "fighting",
             "damage_class": "physical",
-            "name": "Mach Punch"
+            "name": "Mach Punch",
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "starter": "grass",
         "sprite": "391",
@@ -2285,163 +2105,414 @@
       }
     ]
   },
-  "sat1": {
-    "name": "Saturn",
+  "b5": {
+    "name": "Barry",
     "speciality": "",
-    "img": "/leaders/dp-saturn",
+    "img": "/leaders/dp-barry",
     "pokemon": [
       {
-        "name": "kadabra",
-        "level": "35",
+        "name": "staraptor",
+        "level": "48",
         "moves": [
           {
+            "power": 120,
+            "type": "fighting",
+            "damage_class": "physical",
+            "name": "Close Combat",
+            "effect": ""
+          },
+          {
             "power": 60,
-            "type": "electric",
-            "damage_class": "special",
-            "name": "Shock Wave",
-            "effect": "Never misses."
+            "type": "flying",
+            "damage_class": "physical",
+            "name": "Aerial Ace",
+            "effect": ""
           },
           {
-            "type": "dark",
-            "damage_class": "status",
-            "name": "Embargo",
-            "effect": "Target cannot use held items."
+            "power": 70,
+            "type": "steel",
+            "damage_class": "physical",
+            "name": "Steel Wing",
+            "effect": ""
           },
           {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "Recover",
-            "effect": "Heals the user by half its max HP."
-          },
-          {
-            "power": 90,
-            "type": "psychic",
-            "damage_class": "special",
-            "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "power": 70,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "U-turn",
+            "effect": ""
           }
         ],
         "ability": {
-          "name": "Synchronize",
-          "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+          "name": "Keen Eye",
+          "effect": ""
         },
-        "sprite": "64",
+        "sprite": "398",
         "types": [
-          "psychic"
+          "normal",
+          "flying"
         ],
         "stats": {
-          "hp": 40,
-          "atk": 35,
-          "def": 30,
-          "spa": 120,
-          "spd": 70,
-          "spe": 105
+          "hp": 85,
+          "atk": 120,
+          "def": 70,
+          "spa": 50,
+          "spd": 60,
+          "spe": 100
         }
       },
       {
-        "name": "toxicroak",
-        "level": "37",
+        "name": "heracross",
+        "level": "50",
         "moves": [
           {
-            "power": 60,
-            "priority": -4,
+            "power": 75,
+            "type": "rock",
+            "damage_class": "physical",
+            "name": "Rock Slide",
+            "effect": ""
+          },
+          {
+            "power": 120,
             "type": "fighting",
             "damage_class": "physical",
-            "name": "Revenge",
-            "effect": "Inflicts double damage if the user takes damage before attacking this turn."
+            "name": "Close Combat",
+            "effect": ""
+          },
+          {
+            "power": 70,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Night Slash",
+            "effect": ""
           },
           {
             "power": 60,
-            "type": "dark",
+            "type": "flying",
             "damage_class": "physical",
-            "name": "Feint Attack",
-            "effect": "Never misses."
+            "name": "Aerial Ace",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Swarm",
+          "effect": ""
+        },
+        "sprite": "214",
+        "types": [
+          "bug",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 80,
+          "atk": 125,
+          "def": 75,
+          "spa": 40,
+          "spd": 95,
+          "spe": 85
+        }
+      },
+      {
+        "name": "snorlax",
+        "level": "51",
+        "moves": [
+          {
+            "type": "psychic",
+            "damage_class": "status",
+            "name": "Rest",
+            "effect": ""
           },
           {
-            "power": 65,
+            "power": 80,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Crunch",
+            "effect": ""
+          },
+          {
+            "power": 100,
             "type": "ground",
+            "damage_class": "physical",
+            "name": "Earthquake",
+            "effect": ""
+          },
+          {
+            "power": 85,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Body Slam",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Immunity",
+          "effect": ""
+        },
+        "sprite": "143",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 160,
+          "atk": 110,
+          "def": 65,
+          "spa": 65,
+          "spd": 110,
+          "spe": 30
+        }
+      },
+      {
+        "name": "roserade",
+        "level": "49",
+        "moves": [
+          {
+            "power": 75,
+            "type": "grass",
             "damage_class": "special",
-            "name": "Mud Bomb",
-            "effect": "Has a 30% chance to lower the target's accuracy by one stage."
+            "name": "Giga Drain",
+            "effect": ""
+          },
+          {
+            "type": "grass",
+            "damage_class": "status",
+            "name": "Grass Whistle",
+            "effect": ""
           },
           {
             "power": 80,
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Jab",
-            "effect": "Has a 30% chance to poison the target."
-          }
-        ],
-        "ability": {
-          "name": "Anticipation",
-          "effect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
-        },
-        "held": {
-          "sprite": "sitrus-berry",
-          "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
-        },
-        "sprite": "454",
-        "types": [
-          "poison",
-          "fighting"
-        ],
-        "stats": {
-          "hp": 83,
-          "atk": 106,
-          "def": 65,
-          "spa": 86,
-          "spd": 65,
-          "spe": 85
-        }
-      },
-      {
-        "name": "bronzor",
-        "level": "35",
-        "moves": [
-          {
-            "type": "steel",
-            "damage_class": "status",
-            "name": "Iron Defense",
-            "effect": "Raises the user's Defense by two stages."
-          },
-          {
-            "type": "steel",
-            "damage_class": "physical",
-            "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
-          },
-          {
-            "power": 60,
-            "type": "rock",
-            "damage_class": "physical",
-            "name": "Rock Tomb",
-            "effect": "Has a 100% chance to lower the target's Speed by one stage."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
-          "name": "Levitate",
-          "effect": "Evades ground moves."
+          "name": "Natural Cure",
+          "effect": ""
         },
-        "sprite": "436",
+        "starter": "grass",
+        "sprite": "407",
         "types": [
-          "steel",
-          "psychic"
+          "grass",
+          "poison"
         ],
         "stats": {
-          "hp": 57,
-          "atk": 24,
-          "def": 86,
-          "spa": 24,
-          "spd": 86,
-          "spe": 23
+          "hp": 60,
+          "atk": 70,
+          "def": 65,
+          "spa": 125,
+          "spd": 105,
+          "spe": 90
+        }
+      },
+      {
+        "name": "floatzel",
+        "level": "49",
+        "moves": [
+          {
+            "power": 40,
+            "type": "water",
+            "damage_class": "physical",
+            "name": "Aqua Jet",
+            "effect": "",
+            "priority": 1
+          },
+          {
+            "power": 65,
+            "type": "ice",
+            "damage_class": "physical",
+            "name": "Ice Fang",
+            "effect": ""
+          },
+          {
+            "power": 80,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Crunch",
+            "effect": ""
+          },
+          {
+            "power": 75,
+            "type": "fighting",
+            "damage_class": "physical",
+            "name": "Brick Break",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Swift Swim",
+          "effect": ""
+        },
+        "starter": "grass",
+        "sprite": "419",
+        "types": [
+          "water"
+        ],
+        "stats": {
+          "hp": 85,
+          "atk": 105,
+          "def": 55,
+          "spa": 85,
+          "spd": 50,
+          "spe": 115
+        }
+      },
+      {
+        "name": "infernape",
+        "level": "53",
+        "moves": [
+          {
+            "power": 90,
+            "type": "fire",
+            "damage_class": "special",
+            "name": "Flamethrower",
+            "effect": ""
+          },
+          {
+            "power": 120,
+            "type": "fighting",
+            "damage_class": "special",
+            "name": "Focus Blast",
+            "effect": ""
+          },
+          {
+            "power": 60,
+            "type": "flying",
+            "damage_class": "physical",
+            "name": "Aerial Ace",
+            "effect": ""
+          },
+          {
+            "power": 70,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Shadow Claw",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Blaze",
+          "effect": ""
+        },
+        "starter": "grass",
+        "sprite": "392",
+        "types": [
+          "fire",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 76,
+          "atk": 104,
+          "def": 71,
+          "spa": 104,
+          "spd": 71,
+          "spe": 108
+        }
+      }
+    ]
+  },
+  "mars1": {
+    "name": "Mars",
+    "speciality": "",
+    "img": "/leaders/dp-mars",
+    "pokemon": [
+      {
+        "name": "zubat",
+        "level": "14",
+        "moves": [
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Bite",
+            "effect": ""
+          },
+          {
+            "power": 80,
+            "type": "bug",
+            "damage_class": "physical",
+            "name": "Leech Life",
+            "effect": ""
+          },
+          {
+            "type": "poison",
+            "damage_class": "status",
+            "name": "Toxic",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Inner Focus",
+          "effect": ""
+        },
+        "sprite": "41",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "stats": {
+          "hp": 40,
+          "atk": 45,
+          "def": 35,
+          "spa": 30,
+          "spd": 40,
+          "spe": 55
+        }
+      },
+      {
+        "name": "purugly",
+        "level": "16",
+        "moves": [
+          {
+            "power": 40,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Fake Out",
+            "effect": "",
+            "priority": 3
+          },
+          {
+            "power": 40,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Scratch",
+            "effect": ""
+          },
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Feint Attack",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Thick Fat",
+          "effect": ""
+        },
+        "held": {
+          "sprite": "oran-berry",
+          "name": "Oran Berry",
+          "effect": ""
+        },
+        "sprite": "432",
+        "types": [
+          "normal"
+        ],
+        "stats": {
+          "hp": 71,
+          "atk": 82,
+          "def": 64,
+          "spa": 64,
+          "spd": 59,
+          "spe": 112
         }
       }
     ]
@@ -2460,31 +2531,31 @@
             "type": "flying",
             "damage_class": "special",
             "name": "Air Cutter",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Supersonic",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "poison",
             "damage_class": "status",
             "name": "Toxic",
-            "effect": "Badly poisons the target, inflicting more damage every turn."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "42",
         "types": [
@@ -2508,31 +2579,31 @@
             "type": "steel",
             "damage_class": "status",
             "name": "Iron Defense",
-            "effect": "Raises the user's Defense by two stages."
+            "effect": ""
           },
           {
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "436",
         "types": [
@@ -2554,41 +2625,41 @@
         "moves": [
           {
             "power": 40,
-            "priority": 3,
             "type": "normal",
             "damage_class": "physical",
             "name": "Fake Out",
-            "effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
+            "effect": "",
+            "priority": 3
           },
           {
             "power": 70,
             "type": "normal",
             "damage_class": "physical",
             "name": "Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Feint Attack",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Hypnosis",
-            "effect": "Puts the target to sleep."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Thick Fat",
-          "effect": "Halves damage from fire and ice moves."
+          "effect": ""
         },
         "held": {
           "sprite": "oran-berry",
           "name": "Oran Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 10 HP."
+          "effect": ""
         },
         "sprite": "432",
         "types": [
@@ -2605,162 +2676,267 @@
       }
     ]
   },
-  "cyr1": {
-    "name": "Cyrus",
+  "jup1": {
+    "name": "Jupiter",
     "speciality": "",
-    "img": "/leaders/dp-cyrus",
+    "img": "/leaders/dp-jupiter",
     "pokemon": [
       {
-        "name": "murkrow",
-        "level": "40",
-        "moves": [
-          {
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Night Shade",
-            "effect": "Inflicts damage equal to the user's level."
-          },
-          {
-            "power": 30,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Astonish",
-            "effect": "Has a 30% chance to make the target flinch."
-          },
-          {
-            "type": "dark",
-            "damage_class": "status",
-            "name": "Embargo",
-            "effect": "Target cannot use held items."
-          },
-          {
-            "power": 80,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Drill Peck"
-          }
-        ],
-        "ability": {
-          "name": "Insomnia",
-          "effect": "Prevents sleep."
-        },
-        "sprite": "198",
-        "types": [
-          "dark",
-          "flying"
-        ],
-        "stats": {
-          "hp": 60,
-          "atk": 85,
-          "def": 42,
-          "spa": 85,
-          "spd": 42,
-          "spe": 91
-        }
-      },
-      {
-        "name": "golbat",
-        "level": "40",
+        "name": "zubat",
+        "level": "18",
         "moves": [
           {
             "power": 60,
             "type": "flying",
-            "damage_class": "special",
-            "name": "Air Cutter",
-            "effect": "Has an increased chance for a critical hit."
-          },
-          {
-            "power": 50,
-            "type": "poison",
             "damage_class": "physical",
-            "name": "Poison Fang",
-            "effect": "Has a 50% chance to badly poison the target."
+            "name": "Wing Attack",
+            "effect": ""
           },
           {
-            "type": "normal",
-            "damage_class": "status",
-            "name": "Supersonic",
-            "effect": "Confuses the target."
+            "power": 75,
+            "type": "grass",
+            "damage_class": "special",
+            "name": "Giga Drain",
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
-        "sprite": "42",
+        "sprite": "41",
         "types": [
           "poison",
           "flying"
         ],
         "stats": {
-          "hp": 75,
-          "atk": 80,
-          "def": 70,
-          "spa": 65,
-          "spd": 75,
-          "spe": 90
+          "hp": 40,
+          "atk": 45,
+          "def": 35,
+          "spa": 30,
+          "spd": 40,
+          "spe": 55
         }
       },
       {
-        "name": "sneasel",
-        "level": "43",
+        "name": "skuntank",
+        "level": "20",
         "moves": [
           {
-            "power": 75,
-            "type": "ice",
-            "damage_class": "physical",
-            "name": "Ice Punch",
-            "effect": "Has a 10% chance to freeze the target."
-          },
-          {
             "power": 70,
-            "type": "normal",
+            "type": "dark",
             "damage_class": "physical",
-            "name": "Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "name": "Night Slash",
+            "effect": ""
           },
           {
-            "power": 40,
-            "priority": 1,
+            "type": "poison",
+            "damage_class": "status",
+            "name": "Poison Gas",
+            "effect": ""
+          },
+          {
             "type": "normal",
-            "damage_class": "physical",
-            "name": "Quick Attack"
+            "damage_class": "status",
+            "name": "Smokescreen",
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Screech",
-            "effect": "Lowers the target's Defense by two stages."
+            "effect": ""
           }
         ],
         "ability": {
-          "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "name": "Stench",
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
-        "sprite": "215",
+        "sprite": "435",
         "types": [
-          "dark",
-          "ice"
+          "poison",
+          "dark"
         ],
         "stats": {
-          "hp": 55,
-          "atk": 95,
-          "def": 55,
-          "spa": 35,
-          "spd": 75,
-          "spe": 115
+          "hp": 103,
+          "atk": 93,
+          "def": 67,
+          "spa": 71,
+          "spd": 61,
+          "spe": 84
+        }
+      }
+    ]
+  },
+  "sat1": {
+    "name": "Saturn",
+    "speciality": "",
+    "img": "/leaders/dp-saturn",
+    "pokemon": [
+      {
+        "name": "kadabra",
+        "level": "35",
+        "moves": [
+          {
+            "power": 60,
+            "type": "electric",
+            "damage_class": "special",
+            "name": "Shock Wave",
+            "effect": ""
+          },
+          {
+            "type": "dark",
+            "damage_class": "status",
+            "name": "Embargo",
+            "effect": ""
+          },
+          {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Recover",
+            "effect": ""
+          },
+          {
+            "power": 90,
+            "type": "psychic",
+            "damage_class": "special",
+            "name": "Psychic",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Synchronize",
+          "effect": ""
+        },
+        "sprite": "64",
+        "types": [
+          "psychic"
+        ],
+        "stats": {
+          "hp": 40,
+          "atk": 35,
+          "def": 30,
+          "spa": 120,
+          "spd": 70,
+          "spe": 105
+        }
+      },
+      {
+        "name": "toxicroak",
+        "level": "37",
+        "moves": [
+          {
+            "power": 60,
+            "type": "fighting",
+            "damage_class": "physical",
+            "name": "Revenge",
+            "effect": "",
+            "priority": -4
+          },
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Feint Attack",
+            "effect": ""
+          },
+          {
+            "power": 65,
+            "type": "ground",
+            "damage_class": "special",
+            "name": "Mud Bomb",
+            "effect": ""
+          },
+          {
+            "power": 80,
+            "type": "poison",
+            "damage_class": "physical",
+            "name": "Poison Jab",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Anticipation",
+          "effect": ""
+        },
+        "held": {
+          "sprite": "sitrus-berry",
+          "name": "Sitrus Berry",
+          "effect": ""
+        },
+        "sprite": "454",
+        "types": [
+          "poison",
+          "fighting"
+        ],
+        "stats": {
+          "hp": 83,
+          "atk": 106,
+          "def": 65,
+          "spa": 86,
+          "spd": 65,
+          "spe": 85
+        }
+      },
+      {
+        "name": "bronzor",
+        "level": "35",
+        "moves": [
+          {
+            "type": "steel",
+            "damage_class": "status",
+            "name": "Iron Defense",
+            "effect": ""
+          },
+          {
+            "type": "steel",
+            "damage_class": "physical",
+            "name": "Gyro Ball",
+            "effect": ""
+          },
+          {
+            "power": 60,
+            "type": "rock",
+            "damage_class": "physical",
+            "name": "Rock Tomb",
+            "effect": ""
+          },
+          {
+            "power": 80,
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Shadow Ball",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Levitate",
+          "effect": ""
+        },
+        "sprite": "436",
+        "types": [
+          "steel",
+          "psychic"
+        ],
+        "stats": {
+          "hp": 57,
+          "atk": 24,
+          "def": 86,
+          "spa": 24,
+          "spd": 86,
+          "spe": 23
         }
       }
     ]
@@ -2779,31 +2955,31 @@
             "type": "electric",
             "damage_class": "special",
             "name": "Shock Wave",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "type": "dark",
             "damage_class": "status",
             "name": "Embargo",
-            "effect": "Target cannot use held items."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Recover",
-            "effect": "Heals the user by half its max HP."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Synchronize",
-          "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+          "effect": ""
         },
         "sprite": "64",
         "types": [
@@ -2827,36 +3003,37 @@
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Swagger",
-            "effect": "Raises the target's Attack by two stages and confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "bug",
             "damage_class": "physical",
-            "name": "X-Scissor"
+            "name": "X-Scissor",
+            "effect": ""
           },
           {
             "power": 80,
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Jab",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Anticipation",
-          "effect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, self destruct, explosion, or a one-hit KO move."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "454",
         "types": [
@@ -2881,31 +3058,31 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "436",
         "types": [
@@ -2936,31 +3113,31 @@
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Light Screen",
-            "effect": "Reduces damage from special attacks by 50% for five turns."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "436",
         "types": [
@@ -2985,32 +3162,32 @@
             "type": "flying",
             "damage_class": "special",
             "name": "Air Cutter",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 50,
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Fang",
-            "effect": "Has a 50% chance to badly poison the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "42",
         "types": [
@@ -3035,37 +3212,37 @@
             "type": "ghost",
             "damage_class": "physical",
             "name": "Shadow Claw",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 70,
             "type": "normal",
             "damage_class": "physical",
             "name": "Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
             "name": "Aerial Ace",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Hypnosis",
-            "effect": "Puts the target to sleep."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Thick Fat",
-          "effect": "Halves damage from fire and ice moves."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "432",
         "types": [
@@ -3088,32 +3265,32 @@
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "rock",
             "damage_class": "physical",
             "name": "Rock Slide",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Reflect",
-            "effect": "Reduces damage from physical attacks by half."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "sprite": "436",
         "types": [
@@ -3138,32 +3315,32 @@
             "type": "poison",
             "damage_class": "special",
             "name": "Sludge Bomb",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "special",
             "name": "Air Cutter",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "grass",
             "damage_class": "special",
             "name": "Giga Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Mean Look",
-            "effect": "Prevents the target from leaving battle."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "42",
         "types": [
@@ -3188,37 +3365,37 @@
             "type": "poison",
             "damage_class": "physical",
             "name": "Poison Jab",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "power": 70,
             "type": "dark",
             "damage_class": "physical",
             "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "fire",
             "damage_class": "special",
             "name": "Flamethrower",
-            "effect": "Has a 10% chance to burn the target."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Smokescreen",
-            "effect": "Lowers the target's accuracy by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Stench",
-          "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "435",
         "types": [
@@ -3232,6 +3409,168 @@
           "spa": 71,
           "spd": 61,
           "spe": 84
+        }
+      }
+    ]
+  },
+  "cyr1": {
+    "name": "Cyrus",
+    "speciality": "",
+    "img": "/leaders/dp-cyrus",
+    "pokemon": [
+      {
+        "name": "murkrow",
+        "level": "40",
+        "moves": [
+          {
+            "type": "ghost",
+            "damage_class": "special",
+            "name": "Night Shade",
+            "effect": ""
+          },
+          {
+            "power": 30,
+            "type": "ghost",
+            "damage_class": "physical",
+            "name": "Astonish",
+            "effect": ""
+          },
+          {
+            "type": "dark",
+            "damage_class": "status",
+            "name": "Embargo",
+            "effect": ""
+          },
+          {
+            "power": 80,
+            "type": "flying",
+            "damage_class": "physical",
+            "name": "Drill Peck",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Insomnia",
+          "effect": ""
+        },
+        "sprite": "198",
+        "types": [
+          "dark",
+          "flying"
+        ],
+        "stats": {
+          "hp": 60,
+          "atk": 85,
+          "def": 42,
+          "spa": 85,
+          "spd": 42,
+          "spe": 91
+        }
+      },
+      {
+        "name": "golbat",
+        "level": "40",
+        "moves": [
+          {
+            "power": 60,
+            "type": "flying",
+            "damage_class": "special",
+            "name": "Air Cutter",
+            "effect": ""
+          },
+          {
+            "power": 50,
+            "type": "poison",
+            "damage_class": "physical",
+            "name": "Poison Fang",
+            "effect": ""
+          },
+          {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Supersonic",
+            "effect": ""
+          },
+          {
+            "power": 60,
+            "type": "dark",
+            "damage_class": "physical",
+            "name": "Bite",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Inner Focus",
+          "effect": ""
+        },
+        "sprite": "42",
+        "types": [
+          "poison",
+          "flying"
+        ],
+        "stats": {
+          "hp": 75,
+          "atk": 80,
+          "def": 70,
+          "spa": 65,
+          "spd": 75,
+          "spe": 90
+        }
+      },
+      {
+        "name": "sneasel",
+        "level": "43",
+        "moves": [
+          {
+            "power": 75,
+            "type": "ice",
+            "damage_class": "physical",
+            "name": "Ice Punch",
+            "effect": ""
+          },
+          {
+            "power": 70,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Slash",
+            "effect": ""
+          },
+          {
+            "power": 40,
+            "type": "normal",
+            "damage_class": "physical",
+            "name": "Quick Attack",
+            "effect": "",
+            "priority": 1
+          },
+          {
+            "type": "normal",
+            "damage_class": "status",
+            "name": "Screech",
+            "effect": ""
+          }
+        ],
+        "ability": {
+          "name": "Inner Focus",
+          "effect": ""
+        },
+        "held": {
+          "sprite": "sitrus-berry",
+          "name": "Sitrus Berry",
+          "effect": ""
+        },
+        "sprite": "215",
+        "types": [
+          "dark",
+          "ice"
+        ],
+        "stats": {
+          "hp": 55,
+          "atk": 95,
+          "def": 55,
+          "spa": 35,
+          "spd": 75,
+          "spe": 115
         }
       }
     ]
@@ -3250,31 +3589,32 @@
             "type": "dark",
             "damage_class": "special",
             "name": "Dark Pulse",
-            "effect": "Has a 20% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "dark",
             "damage_class": "status",
             "name": "Embargo",
-            "effect": "Target cannot use held items."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "flying",
             "damage_class": "physical",
-            "name": "Drill Peck"
+            "name": "Drill Peck",
+            "effect": ""
           },
           {
             "power": 70,
             "type": "steel",
             "damage_class": "physical",
             "name": "Steel Wing",
-            "effect": "Has a 10% chance to raise the user's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Insomnia",
-          "effect": "Prevents sleep."
+          "effect": ""
         },
         "sprite": "430",
         "types": [
@@ -3298,33 +3638,34 @@
             "power": 90,
             "type": "water",
             "damage_class": "physical",
-            "name": "Aqua Tail"
+            "name": "Aqua Tail",
+            "effect": ""
           },
           {
             "power": 150,
             "type": "normal",
             "damage_class": "physical",
             "name": "Giga Impact",
-            "effect": "User foregoes its next turn to recharge."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Fang",
-            "effect": "Has a 10% chance to freeze the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Intimidate",
-          "effect": "Lowers opponents' Attack one stage upon entering battle."
+          "effect": ""
         },
         "sprite": "130",
         "types": [
@@ -3349,32 +3690,32 @@
             "type": "flying",
             "damage_class": "special",
             "name": "Air Slash",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 70,
             "type": "poison",
             "damage_class": "physical",
             "name": "Cross Poison",
-            "effect": "Has an increased chance for a critical hit and a 10% chance to poison the target."
+            "effect": ""
           },
           {
             "type": "ghost",
             "damage_class": "status",
             "name": "Confuse Ray",
-            "effect": "Confuses the target."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "dark",
             "damage_class": "physical",
             "name": "Bite",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "169",
         "types": [
@@ -3399,37 +3740,38 @@
             "type": "dark",
             "damage_class": "physical",
             "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Punch",
-            "effect": "Has a 10% chance to freeze the target."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "bug",
             "damage_class": "physical",
-            "name": "X-Scissor"
+            "name": "X-Scissor",
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pressure",
-          "effect": "Increases the PP cost of moves targetting the Pokémon by one."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "461",
         "types": [
@@ -3443,318 +3785,6 @@
           "spa": 45,
           "spd": 85,
           "spe": 125
-        }
-      }
-    ]
-  },
-  "b5": {
-    "name": "Barry",
-    "speciality": "",
-    "img": "/leaders/dp-barry",
-    "pokemon": [
-      {
-        "name": "staraptor",
-        "level": "48",
-        "moves": [
-          {
-            "power": 120,
-            "type": "fighting",
-            "damage_class": "physical",
-            "name": "Close Combat",
-            "effect": "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
-          },
-          {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Aerial Ace",
-            "effect": "Never misses."
-          },
-          {
-            "power": 70,
-            "type": "steel",
-            "damage_class": "physical",
-            "name": "Steel Wing",
-            "effect": "Has a 10% chance to raise the user's Defense by one stage."
-          },
-          {
-            "power": 70,
-            "type": "bug",
-            "damage_class": "physical",
-            "name": "U-turn",
-            "effect": "User must switch out after attacking."
-          }
-        ],
-        "ability": {
-          "name": "Keen Eye",
-          "effect": "Prevents accuracy from being lowered."
-        },
-        "sprite": "398",
-        "types": [
-          "normal",
-          "flying"
-        ],
-        "stats": {
-          "hp": 85,
-          "atk": 120,
-          "def": 70,
-          "spa": 50,
-          "spd": 60,
-          "spe": 100
-        }
-      },
-      {
-        "name": "heracross",
-        "level": "50",
-        "moves": [
-          {
-            "power": 75,
-            "type": "rock",
-            "damage_class": "physical",
-            "name": "Rock Slide",
-            "effect": "Has a 30% chance to make the target flinch."
-          },
-          {
-            "power": 120,
-            "type": "fighting",
-            "damage_class": "physical",
-            "name": "Close Combat",
-            "effect": "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
-          },
-          {
-            "power": 70,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
-          },
-          {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Aerial Ace",
-            "effect": "Never misses."
-          }
-        ],
-        "ability": {
-          "name": "Swarm",
-          "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
-        },
-        "sprite": "214",
-        "types": [
-          "bug",
-          "fighting"
-        ],
-        "stats": {
-          "hp": 80,
-          "atk": 125,
-          "def": 75,
-          "spa": 40,
-          "spd": 95,
-          "spe": 85
-        }
-      },
-      {
-        "name": "snorlax",
-        "level": "51",
-        "moves": [
-          {
-            "type": "psychic",
-            "damage_class": "status",
-            "name": "Rest",
-            "effect": "User sleeps for two turns, completely healing itself."
-          },
-          {
-            "power": 80,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
-          },
-          {
-            "power": 100,
-            "type": "ground",
-            "damage_class": "physical",
-            "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
-          },
-          {
-            "power": 85,
-            "type": "normal",
-            "damage_class": "physical",
-            "name": "Body Slam",
-            "effect": "Has a 30% chance to paralyze the target."
-          }
-        ],
-        "ability": {
-          "name": "Immunity",
-          "effect": "Prevents poison."
-        },
-        "sprite": "143",
-        "types": [
-          "normal"
-        ],
-        "stats": {
-          "hp": 160,
-          "atk": 110,
-          "def": 65,
-          "spa": 65,
-          "spd": 110,
-          "spe": 30
-        }
-      },
-      {
-        "name": "roserade",
-        "level": "49",
-        "moves": [
-          {
-            "power": 75,
-            "type": "grass",
-            "damage_class": "special",
-            "name": "Giga Drain",
-            "effect": "Drains half the damage inflicted to heal the user."
-          },
-          {
-            "type": "grass",
-            "damage_class": "status",
-            "name": "Grass Whistle",
-            "effect": "Puts the target to sleep."
-          },
-          {
-            "power": 80,
-            "type": "poison",
-            "damage_class": "physical",
-            "name": "Poison Jab",
-            "effect": "Has a 30% chance to poison the target."
-          },
-          {
-            "power": 80,
-            "type": "ghost",
-            "damage_class": "special",
-            "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
-          }
-        ],
-        "ability": {
-          "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
-        },
-        "starter": "grass",
-        "sprite": "407",
-        "types": [
-          "grass",
-          "poison"
-        ],
-        "stats": {
-          "hp": 60,
-          "atk": 70,
-          "def": 65,
-          "spa": 125,
-          "spd": 105,
-          "spe": 90
-        }
-      },
-      {
-        "name": "floatzel",
-        "level": "49",
-        "moves": [
-          {
-            "power": 40,
-            "priority": 1,
-            "type": "water",
-            "damage_class": "physical",
-            "name": "Aqua Jet"
-          },
-          {
-            "power": 65,
-            "type": "ice",
-            "damage_class": "physical",
-            "name": "Ice Fang",
-            "effect": "Has a 10% chance to freeze the target and a $effect_chance% chance to make the target flinch."
-          },
-          {
-            "power": 80,
-            "type": "dark",
-            "damage_class": "physical",
-            "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
-          },
-          {
-            "power": 75,
-            "type": "fighting",
-            "damage_class": "physical",
-            "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
-          }
-        ],
-        "ability": {
-          "name": "Swift Swim",
-          "effect": "Doubles Speed during rain."
-        },
-        "starter": "grass",
-        "sprite": "419",
-        "types": [
-          "water"
-        ],
-        "stats": {
-          "hp": 85,
-          "atk": 105,
-          "def": 55,
-          "spa": 85,
-          "spd": 50,
-          "spe": 115
-        }
-      },
-      {
-        "name": "infernape",
-        "level": "53",
-        "moves": [
-          {
-            "power": 90,
-            "type": "fire",
-            "damage_class": "special",
-            "name": "Flamethrower",
-            "effect": "Has a 10% chance to burn the target."
-          },
-          {
-            "power": 120,
-            "type": "fighting",
-            "damage_class": "special",
-            "name": "Focus Blast",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
-          },
-          {
-            "power": 60,
-            "type": "flying",
-            "damage_class": "physical",
-            "name": "Aerial Ace",
-            "effect": "Never misses."
-          },
-          {
-            "power": 70,
-            "type": "ghost",
-            "damage_class": "physical",
-            "name": "Shadow Claw",
-            "effect": "Has an increased chance for a critical hit."
-          }
-        ],
-        "ability": {
-          "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
-        },
-        "starter": "grass",
-        "sprite": "392",
-        "types": [
-          "fire",
-          "fighting"
-        ],
-        "stats": {
-          "hp": 76,
-          "atk": 104,
-          "def": 71,
-          "spa": 104,
-          "spd": 71,
-          "spe": 108
         }
       }
     ]
@@ -3773,30 +3803,30 @@
             "type": "bug",
             "damage_class": "special",
             "name": "Bug Buzz",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "poison",
             "damage_class": "status",
             "name": "Toxic",
-            "effect": "Badly poisons the target, inflicting more damage every turn."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Light Screen",
-            "effect": "Reduces damage from special attacks by 50% for five turns."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Shield Dust",
-          "effect": "Protects against incoming moves' extra effects."
+          "effect": ""
         },
         "sprite": "269",
         "types": [
@@ -3821,33 +3851,33 @@
             "type": "bug",
             "damage_class": "special",
             "name": "Bug Buzz",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "grass",
             "damage_class": "special",
             "name": "Energy Ball",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swarm",
-          "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "sprite": "267",
         "types": [
@@ -3871,33 +3901,34 @@
             "power": 120,
             "type": "bug",
             "damage_class": "physical",
-            "name": "Megahorn"
+            "name": "Megahorn",
+            "effect": ""
           },
           {
             "power": 120,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Close Combat",
-            "effect": "Lowers the user's Defense and Special Defense by one stage after inflicting damage."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "rock",
             "damage_class": "physical",
             "name": "Stone Edge",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 70,
             "type": "dark",
             "damage_class": "physical",
             "name": "Night Slash",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Swarm",
-          "effect": "Strengthens bug moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "sprite": "214",
         "types": [
@@ -3922,30 +3953,31 @@
             "type": "bug",
             "damage_class": "physical",
             "name": "Attack Order",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "type": "bug",
             "damage_class": "status",
             "name": "Defend Order",
-            "effect": "Raises the user's Defense and Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "bug",
             "damage_class": "status",
             "name": "Heal Order",
-            "effect": "Heals the user by half its max HP."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "rock",
             "damage_class": "special",
-            "name": "Power Gem"
+            "name": "Power Gem",
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pressure",
-          "effect": "Increases the PP cost of moves targetting the Pokémon by one."
+          "effect": ""
         },
         "sprite": "416",
         "types": [
@@ -3970,37 +4002,38 @@
             "type": "poison",
             "damage_class": "physical",
             "name": "Cross Poison",
-            "effect": "Has an increased chance for a critical hit and a 10% chance to poison the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "bug",
             "damage_class": "physical",
-            "name": "X-Scissor"
+            "name": "X-Scissor",
+            "effect": ""
           },
           {
             "power": 60,
             "type": "flying",
             "damage_class": "physical",
             "name": "Aerial Ace",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Fang",
-            "effect": "Has a 10% chance to freeze the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Battle Armor",
-          "effect": "Protects against critical hits."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "452",
         "types": [
@@ -4028,35 +4061,35 @@
         "level": "55",
         "moves": [
           {
-            "priority": 4,
             "type": "normal",
             "damage_class": "status",
             "name": "Protect",
-            "effect": "Prevents any moves from hitting the user this turn."
+            "effect": "",
+            "priority": 4
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Sandstorm",
-            "effect": "Changes the weather to a sandstorm for five turns."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ground",
             "damage_class": "physical",
             "name": "Dig",
-            "effect": "User digs underground, dodging all attacks, and hits next turn."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Damp",
-          "effect": "Prevents self destruct, explosion, and aftermath from working while the Pokémon is in battle."
+          "effect": ""
         },
         "sprite": "195",
         "types": [
@@ -4078,36 +4111,36 @@
         "moves": [
           {
             "power": 70,
-            "priority": 1,
             "type": "dark",
             "damage_class": "physical",
             "name": "Sucker Punch",
-            "effect": "Only works if the target is about to use a damaging move."
+            "effect": "",
+            "priority": 1
           },
           {
             "power": 100,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Hammer Arm",
-            "effect": "Lowers user's Speed by one stage."
+            "effect": ""
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Sandstorm",
-            "effect": "Changes the weather to a sandstorm for five turns."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sturdy",
-          "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+          "effect": ""
         },
         "sprite": "185",
         "types": [
@@ -4131,31 +4164,32 @@
             "type": "rock",
             "damage_class": "physical",
             "name": "Rock Slide",
-            "effect": "Has a 30% chance to make the target flinch."
+            "effect": ""
           },
           {
             "type": "ground",
             "damage_class": "physical",
             "name": "Fissure",
-            "effect": "Causes a one-hit KO."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "physical",
             "name": "Zen Headbutt",
-            "effect": "Has a 20% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "water",
             "damage_class": "physical",
-            "name": "Aqua Tail"
+            "name": "Aqua Tail",
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Oblivious",
-          "effect": "Prevents infatuation and protects against captivate."
+          "effect": ""
         },
         "sprite": "340",
         "types": [
@@ -4179,32 +4213,32 @@
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           },
           {
             "type": "rock",
             "damage_class": "status",
             "name": "Sandstorm",
-            "effect": "Changes the weather to a sandstorm for five turns."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Rock Head",
-          "effect": "Protects against recoil damage."
+          "effect": ""
         },
         "sprite": "76",
         "types": [
@@ -4229,37 +4263,37 @@
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           },
           {
             "type": "???",
             "damage_class": "status",
             "name": "Curse",
-            "effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "rock",
             "damage_class": "physical",
             "name": "Stone Edge",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "dark",
             "damage_class": "physical",
             "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sand Stream",
-          "effect": "Summons a sandstorm that lasts indefinitely upon entering battle."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "450",
         "types": [
@@ -4289,33 +4323,33 @@
             "type": "fire",
             "damage_class": "status",
             "name": "Sunny Day",
-            "effect": "Changes the weather to sunny for five turns."
+            "effect": ""
           },
           {
             "power": 120,
             "type": "fire",
             "damage_class": "physical",
             "name": "Flare Blitz",
-            "effect": "User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target."
+            "effect": ""
           },
           {
             "power": 120,
             "type": "grass",
             "damage_class": "special",
             "name": "Solar Beam",
-            "effect": "Requires a turn to charge before attacking."
+            "effect": ""
           },
           {
             "power": 85,
             "type": "flying",
             "damage_class": "physical",
             "name": "Bounce",
-            "effect": "User bounces high into the air, dodging all attacks, and hits next turn."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Run Away",
-          "effect": "Ensures success fleeing from wild battles."
+          "effect": ""
         },
         "sprite": "78",
         "types": [
@@ -4338,31 +4372,31 @@
             "type": "normal",
             "damage_class": "status",
             "name": "Double Team",
-            "effect": "Raises the user's evasion by one stage."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Baton Pass",
-            "effect": "Allows the trainer to switch out the user and pass effects along to its replacement."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "ghost",
             "damage_class": "special",
             "name": "Ominous Wind",
-            "effect": "Has a 10% chance to raise all of the user's stats by one stage."
+            "effect": ""
           },
           {
             "type": "fire",
             "damage_class": "status",
             "name": "Will-O-Wisp",
-            "effect": "Burns the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Aftermath",
-          "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+          "effect": ""
         },
         "sprite": "426",
         "types": [
@@ -4386,32 +4420,32 @@
             "type": "fire",
             "damage_class": "status",
             "name": "Sunny Day",
-            "effect": "Changes the weather to sunny for five turns."
+            "effect": ""
           },
           {
             "power": 65,
             "type": "fire",
             "damage_class": "physical",
             "name": "Fire Fang",
-            "effect": "Has a 10% chance to burn the target and a $effect_chance% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "rock",
             "damage_class": "physical",
             "name": "Rock Tomb",
-            "effect": "Has a 100% chance to lower the target's Speed by one stage."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Screech",
-            "effect": "Lowers the target's Defense by two stages."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Rock Head",
-          "effect": "Protects against recoil damage."
+          "effect": ""
         },
         "sprite": "208",
         "types": [
@@ -4435,32 +4469,32 @@
             "type": "normal",
             "damage_class": "status",
             "name": "Charm",
-            "effect": "Lowers the target's Attack by two stages."
+            "effect": ""
           },
           {
-            "priority": -5,
             "type": "psychic",
             "damage_class": "special",
             "name": "Mirror Coat",
-            "effect": "Inflicts twice the damage the user received from the last special hit it took."
+            "effect": "",
+            "priority": -5
           },
           {
             "type": "fire",
             "damage_class": "status",
             "name": "Sunny Day",
-            "effect": "Changes the weather to sunny for five turns."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fire",
             "damage_class": "physical",
             "name": "Fire Punch",
-            "effect": "Has a 10% chance to burn the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Cute Charm",
-          "effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+          "effect": ""
         },
         "sprite": "428",
         "types": [
@@ -4484,38 +4518,39 @@
             "type": "fire",
             "damage_class": "physical",
             "name": "Flare Blitz",
-            "effect": "User takes 1/3 the damage inflicted in recoil.  Has a 10% chance to burn the target."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "electric",
             "damage_class": "physical",
             "name": "Thunder Punch",
-            "effect": "Has a 10% chance to paralyze the target."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           },
           {
             "power": 40,
-            "priority": 1,
             "type": "fighting",
             "damage_class": "physical",
-            "name": "Mach Punch"
+            "name": "Mach Punch",
+            "effect": "",
+            "priority": 1
           }
         ],
         "ability": {
           "name": "Blaze",
-          "effect": "Strengthens fire moves to inflict 1.5× damage at 1/3 max HP or less."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "392",
         "types": [
@@ -4547,31 +4582,31 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Light Screen",
-            "effect": "Reduces damage from special attacks by 50% for five turns."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Reflect",
-            "effect": "Reduces damage from physical attacks by half."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "electric",
             "damage_class": "special",
             "name": "Thunderbolt",
-            "effect": "Has a 10% chance to paralyze the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Soundproof",
-          "effect": "Protects against sound-based moves."
+          "effect": ""
         },
         "sprite": "122",
         "types": [
@@ -4595,33 +4630,33 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 35,
             "type": "normal",
             "damage_class": "physical",
             "name": "Double Hit",
-            "effect": "Hits twice in one turn."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "dark",
             "damage_class": "physical",
             "name": "Crunch",
-            "effect": "Has a 20% chance to lower the target's Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Inner Focus",
-          "effect": "Prevents flinching."
+          "effect": ""
         },
         "sprite": "203",
         "types": [
@@ -4646,33 +4681,33 @@
             "type": "fighting",
             "damage_class": "physical",
             "name": "Drain Punch",
-            "effect": "Drains half the damage inflicted to heal the user."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "ice",
             "damage_class": "physical",
             "name": "Ice Punch",
-            "effect": "Has a 10% chance to freeze the target."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fire",
             "damage_class": "physical",
             "name": "Fire Punch",
-            "effect": "Has a 10% chance to burn the target."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "electric",
             "damage_class": "physical",
             "name": "Thunder Punch",
-            "effect": "Has a 10% chance to paralyze the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pure Power",
-          "effect": "Doubles Attack in battle."
+          "effect": ""
         },
         "sprite": "308",
         "types": [
@@ -4697,32 +4732,32 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 120,
             "type": "fighting",
             "damage_class": "special",
             "name": "Focus Blast",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "normal",
             "damage_class": "status",
             "name": "Recover",
-            "effect": "Heals the user by half its max HP."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "grass",
             "damage_class": "special",
             "name": "Energy Ball",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Synchronize",
-          "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+          "effect": ""
         },
         "sprite": "65",
         "types": [
@@ -4746,36 +4781,36 @@
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "type": "steel",
             "damage_class": "physical",
             "name": "Gyro Ball",
-            "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+            "effect": ""
           },
           {
             "type": "psychic",
             "damage_class": "status",
             "name": "Calm Mind",
-            "effect": "Raises the user's Special Attack and Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Levitate",
-          "effect": "Evades ground moves."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "437",
         "types": [
@@ -4806,33 +4841,33 @@
             "type": "dark",
             "damage_class": "status",
             "name": "Embargo",
-            "effect": "Target cannot use held items."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "dark",
             "damage_class": "special",
             "name": "Dark Pulse",
-            "effect": "Has a 20% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 60,
             "type": "bug",
             "damage_class": "special",
             "name": "Silver Wind",
-            "effect": "Has a 10% chance to raise all of the user's stats by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Pressure",
-          "effect": "Increases the PP cost of moves targetting the Pokémon by one."
+          "effect": ""
         },
         "sprite": "442",
         "types": [
@@ -4857,33 +4892,33 @@
             "type": "grass",
             "damage_class": "special",
             "name": "Energy Ball",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "poison",
             "damage_class": "special",
             "name": "Sludge Bomb",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "ghost",
             "damage_class": "special",
             "name": "Shadow Ball",
-            "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 80,
             "type": "psychic",
             "damage_class": "special",
             "name": "Extrasensory",
-            "effect": "Has a 10% chance to make the target flinch."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Natural Cure",
-          "effect": "Cures any major status ailment upon switching out."
+          "effect": ""
         },
         "sprite": "407",
         "types": [
@@ -4908,32 +4943,33 @@
             "type": "fighting",
             "damage_class": "special",
             "name": "Aura Sphere",
-            "effect": "Never misses."
+            "effect": ""
           },
           {
             "power": 85,
             "type": "dragon",
             "damage_class": "special",
-            "name": "Dragon Pulse"
+            "name": "Dragon Pulse",
+            "effect": ""
           },
           {
             "power": 90,
             "type": "psychic",
             "damage_class": "special",
             "name": "Psychic",
-            "effect": "Has a 10% chance to lower the target's Special Defense by one stage."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Steadfast",
-          "effect": "Raises Speed one stage upon flinching."
+          "effect": ""
         },
         "sprite": "448",
         "types": [
@@ -4958,33 +4994,33 @@
             "type": "water",
             "damage_class": "special",
             "name": "Muddy Water",
-            "effect": "Has a 30% chance to lower the target's accuracy by one stage."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "poison",
             "damage_class": "special",
             "name": "Sludge Bomb",
-            "effect": "Has a 30% chance to poison the target."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "rock",
             "damage_class": "physical",
             "name": "Stone Edge",
-            "effect": "Has an increased chance for a critical hit."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sticky Hold",
-          "effect": "Prevents a held item from being removed by other Pokémon."
+          "effect": ""
         },
         "sprite": "423",
         "types": [
@@ -5008,33 +5044,33 @@
             "type": "water",
             "damage_class": "status",
             "name": "Aqua Ring",
-            "effect": "Restores 1/16 of the user's max HP each turn."
+            "effect": ""
           },
           {
             "power": 90,
             "type": "water",
             "damage_class": "special",
             "name": "Surf",
-            "effect": "Inflicts regular damage and can hit Dive users."
+            "effect": ""
           },
           {
-            "priority": -5,
             "type": "psychic",
             "damage_class": "special",
             "name": "Mirror Coat",
-            "effect": "Inflicts twice the damage the user received from the last special hit it took."
+            "effect": "",
+            "priority": -5
           },
           {
             "power": 90,
             "type": "ice",
             "damage_class": "special",
             "name": "Ice Beam",
-            "effect": "Has a 10% chance to freeze the target."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Marvel Scale",
-          "effect": "Increases Defense to 1.5× with a major status ailment."
+          "effect": ""
         },
         "sprite": "350",
         "types": [
@@ -5058,38 +5094,38 @@
             "type": "dragon",
             "damage_class": "physical",
             "name": "Dragon Rush",
-            "effect": "Has a 20% chance to make the target flinch."
+            "effect": ""
           },
           {
             "power": 75,
             "type": "fighting",
             "damage_class": "physical",
             "name": "Brick Break",
-            "effect": "Destroys Reflect and Light Screen."
+            "effect": ""
           },
           {
             "power": 100,
             "type": "ground",
             "damage_class": "physical",
             "name": "Earthquake",
-            "effect": "Inflicts regular damage and can hit Dig users."
+            "effect": ""
           },
           {
             "power": 150,
             "type": "normal",
             "damage_class": "physical",
             "name": "Giga Impact",
-            "effect": "User foregoes its next turn to recharge."
+            "effect": ""
           }
         ],
         "ability": {
           "name": "Sand Veil",
-          "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+          "effect": ""
         },
         "held": {
           "sprite": "sitrus-berry",
           "name": "Sitrus Berry",
-          "effect": "Held: Consumed at 1/2 max HP to recover 1/4 max HP."
+          "effect": ""
         },
         "sprite": "445",
         "types": [

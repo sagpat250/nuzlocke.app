@@ -12092,6 +12092,15 @@
     "alias": "weakarmor",
     "slug": "weak-armor"
   },
+  "wellbakedbody": {
+    "name": "Well-Baked Body",
+    "num": 270,
+    "desc": null,
+    "shortDesc": null,
+    "isNonstandard": null,
+    "slug": "well-baked-body",
+    "alias": "wellbakedbody"
+  },
   "whitesmoke": {
     "name": "White Smoke",
     "num": 73,
