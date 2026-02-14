@@ -27,6 +27,7 @@
   import TypeBadge from '$lib/components/type-badge.svelte'
   import MoveCard from '$lib/components/move-card.svelte'
   import StatBlock from '$lib/components/stat-block.svelte'
+  import TypeEffectiveness from '$lib/components/type-effectiveness.svelte'
 
   import { UNOWN } from '$utils/rewrites'
   import { Stars as Pattern } from '$utils/pattern'
@@ -185,6 +186,11 @@
             {...stats}
           />
         {/if}
+      </div>
+
+      <!-- Type Effectiveness Section -->
+      <div class="px-4 pb-3">
+        <TypeEffectiveness {types} />
       </div>
 
       <slot name="footer" id={canonname} />

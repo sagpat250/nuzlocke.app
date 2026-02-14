@@ -1,5 +1,5 @@
 <script>
-  export let badge, name, team
+  export let badge, name, team, currentOpponentId = null
 
   import { onMount, createEventDispatcher } from 'svelte'
   import { Button, PIcon } from '$c/core'
@@ -22,6 +22,8 @@
 
   const ontoggle = (_) => dispatch('toggle')
   const oncomplete = (_) => dispatch('complete')
+  const onmarkdead = (_) => dispatch('markdead', { id: currentOpponentId })
+
 </script>
 
 <div
@@ -43,6 +45,15 @@
   <div class="my-4 flex justify-center gap-x-2 md:justify-end">
     <Button on:click={ontoggle} class="!py-1 text-xs" rounded>
       <slot name="switch-text" />
+    </Button>
+
+    <Button
+      disabled={currentOpponentId === null}
+      on:click={onmarkdead}
+      class="!py-1 text-xs"
+      rounded
+    >
+      Mark as Dead
     </Button>
 
     <Button

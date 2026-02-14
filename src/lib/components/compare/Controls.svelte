@@ -6,7 +6,8 @@
     className = '',
     title = '',
     showcontrols = false,
-    showtitle = false
+    showtitle = false,
+    deadPokemon = []
 
   import { createEventDispatcher } from 'svelte'
   import { PIcon, Icon } from '$c/core'
@@ -64,12 +65,14 @@
 
     {#each pages[page] as p, i (p)}
       {@const selected = value === page * pageSize + i}
+      {@const isDead = deadPokemon.includes(page * pageSize + i)}
       <button
         in:fade={{ duration: 300, delay: 50 }}
         class:opacity-50={!selected}
-        class:grayscale={!selected}
+        class:grayscale={!selected || isDead}
         class:scale-125={selected}
         class:selected
+        class:dead={isDead}
         class="-mx-2 -my-2 origin-center transform cursor-pointer transition hover:scale-125 hover:opacity-100 hover:grayscale-0"
         on:click={(e) => {
           value = page * pageSize + i
@@ -77,6 +80,11 @@
         }}
       >
         <PIcon name={select(p)} />
+        {#if isDead}
+          <span class="dead-indicator absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl font-bold text-red-600" aria-label="Defeated">
+            ✕
+          </span>
+        {/if}
       </button>
     {/each}
 
@@ -117,6 +125,24 @@
 
   :global(.dark) button.page {
     @apply text-gray-200 hover:text-orange-500 disabled:hover:text-gray-200;
+  }
+
+  button {
+    @apply relative;
+  }
+
+  button.dead {
+    @apply opacity-75;
+  }
+
+  .dead-indicator {
+    pointer-events: none;
+    text-shadow: 
+      -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      0 0 8px rgba(220, 38, 38, 0.8);
   }
 
   @media (min-width: theme('screens.md')) {

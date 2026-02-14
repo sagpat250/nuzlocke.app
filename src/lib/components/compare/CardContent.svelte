@@ -29,7 +29,8 @@
     gym,
     team,
     box,
-    advice
+    advice,
+    deadOpponents = []
 
   const dispatch = createEventDispatcher()
 
@@ -204,6 +205,7 @@
       title="Gym team"
       list={gym}
       {select}
+      deadPokemon={deadOpponents}
     />
   </div>
 </div>

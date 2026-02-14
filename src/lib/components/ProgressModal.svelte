@@ -84,6 +84,33 @@
     }
   }
 
+  // Dead opponent pokemon tracking
+  let deadOpponents = []
+  
+  const handleMarkDead = (e) => {
+    const opponentId = e.detail.id
+    if (opponentId !== null && !deadOpponents.includes(opponentId)) {
+      deadOpponents = [...deadOpponents, opponentId]
+      
+      // Store dead opponents in boss teams data
+      const existingTeam = bossTeams.find((t) => t.id === boss.id)
+      const teamData = nonnull({
+        id: boss.id,
+        name: boss.name,
+        group: boss.type,
+        type: boss.speciality,
+        team: existingTeam?.team || [],
+        deadOpponents: deadOpponents
+      })
+      
+      gameStore.update(
+        patch({
+          __teams: bossTeams.filter((t) => t.id !== boss.id).concat(teamData)
+        })
+      )
+    }
+  }
+
   // Data and setup functions
   let gameStore, rawData, boxData, teamLocs, ogTeam, bossTeams
 
@@ -101,6 +128,9 @@
           bossTeams.find((i) => i.id === boss.id)?.team?.map((i) => i.id) ||
           readTeam(data) ||
           []
+
+        // Load dead opponents from stored data
+        deadOpponents = bossTeams.find((i) => i.id === boss.id)?.deadOpponents || []
 
         cb(rawData, boxData, teamLocs)
       })
@@ -167,21 +197,25 @@
 
   <CompareCard
     on:select={toggleMon}
+    on:markdead={handleMarkDead}
     {team}
     {id}
     class={tab === 1 ? '' : 'hidden'}
     box={analysisResult.box}
     gym={analysisResult.gym}
     advice={analysisResult}
+    deadOpponents={deadOpponents}
   >
     <Tabs class="flex-1" slot="tabs" bind:active={tab} {tabs} />
     <Actions
       slot="actions"
       on:toggle={settab(0)}
       on:complete={handlesubmit(team)}
+      on:markdead={handleMarkDead}
       class="justify-center rounded-b-lg bg-white px-6 pt-1 pb-2 dark:bg-gray-900 md:-mt-4"
       {...boss}
       {team}
+      currentOpponentId={id}
     >
       <span slot="switch-text">Build team</span>
     </Actions>

@@ -11,6 +11,7 @@
 
   import TypeLogo from '$lib/components/type-logo.svelte'
   import TypeBadge from '$lib/components/type-badge.svelte'
+  import TypeEffectiveness from '$lib/components/type-effectiveness.svelte'
   import { Tooltip } from '$lib/components/core'
 
   const toGroups = (name) => Object
@@ -71,19 +72,10 @@
 </div>
 
 <!-- Type weaknesses of attacking pokemon -->
-<div class="mt-4.5 flex w-72 flex-wrap items-start md:ml-4 md:mt-px">
-  <span class="w-full text-xs font-normal">
-    {opp.name}'s weaknesses
+<div class="mt-4.5 w-full md:ml-4 md:mt-px">
+  <span class="mb-2 block text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-400">
+    {opp.name}'s Type Matchups
   </span>
 
-  {#each toGroups(opp.alias) as [mod, types], i}
-    <div class="flex items-center font-mono text-xl leading-5">
-      <span>{toFraction(mod)}x</span>
-      <div class="ml-1 flex flex-wrap">
-        {#each types as type}
-          <TypeLogo class="origin-left scale-75" {type} />
-        {/each}
-      </div>
-    </div>
-  {/each}
+  <TypeEffectiveness types={opp.types} />
 </div>
