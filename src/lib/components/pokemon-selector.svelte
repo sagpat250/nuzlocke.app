@@ -13,6 +13,7 @@
 
   import { fly } from 'svelte/transition'
   import { Natures, NaturesMap } from '$lib/data/natures'
+  import { Abilities, AbilitiesMap } from '$lib/data/abilities'
   import { NuzlockeStates, NuzlockeGroups } from '$lib/data/states'
   import { IconButton, Input } from '$lib/components/core'
   import { Wrapper as SettingsWrapper } from '$lib/components/Settings'
@@ -40,11 +41,11 @@
 
   import { createEventDispatcher, onMount, getContext } from 'svelte'
 
-  let selected, nickname, status, nature, hidden, death
+  let selected, nickname, status, nature, ability, hidden, death
   let prevstatus = 'loading'
 
   // Search text bindings for ACs
-  let search, statusSearch, natureSearch
+  let search, statusSearch, natureSearch, abilitySearch
 
   export let encounters = []
   let encounterItems = []
@@ -121,6 +122,7 @@
 
         status = pkmn.status ? NuzlockeStates[pkmn.status] : null
         nature = pkmn.nature ? NaturesMap[pkmn.nature] : null
+        ability = pkmn.ability ? AbilitiesMap[pkmn.ability] : null
         hidden = pkmn.hidden
         nickname = pkmn.nickname
         death = pkmn.death
@@ -138,6 +140,7 @@
     pokemon: selected?.alias,
     status: status?.id,
     nature: nature?.id,
+    ability: ability?.id,
     location: locationName || location,
     ...(nickname ? { nickname } : {}),
     ...(hidden ? { hidden: true } : {}),
@@ -199,7 +202,7 @@
 
   function handleClear() {
     status = nickname = selected = death = resetd = null
-    search = statusSearch = natureSearch = null
+    search = statusSearch = natureSearch = abilitySearch = null
     store.update(
       patch({
         [location]: {},
@@ -274,9 +277,11 @@
 
 <SettingsWrapper id="nickname-clause" let:setting={nicknames}>
   <div
-    class:lg:grid-cols-8={nicknames}
-    class:lg:grid-cols-6={!nicknames}
-    class="relative flex grid w-full grid-cols-2 gap-y-3 gap-x-2 md:grid-cols-4 md:gap-y-2 lg:grid-cols-8 lg:gap-y-0"
+    class:lg:grid-cols-9={nicknames}
+    class:lg:grid-cols-8={!nicknames}
+    class:xl:grid-cols-9={nicknames}
+    class:xl:grid-cols-8={!nicknames}
+    class="relative flex grid w-full grid-cols-2 gap-y-3 gap-x-2 md:grid-cols-5 md:gap-y-2 lg:gap-y-0"
   >
     <span class="location group relative z-50">
       {#if $$slots.location}
@@ -503,6 +508,28 @@
       </div>
     </AutoCompleteV2>
 
+    <AutoCompleteV2
+      itemF={(_) => Abilities}
+      max={Abilities.length}
+      bind:search={abilitySearch}
+      bind:selected={ability}
+      id="{location} Ability"
+      name="{location} Ability"
+      placeholder="Ability"
+      class="col-span-1 {!selected || status?.id === 4 || hidden
+        ? 'hidden sm:block'
+        : ''}"
+    >
+      <div
+        class="group -mx-1 flex inline-flex w-full items-center justify-between py-2 px-1 md:py-3"
+        slot="option"
+        let:option
+        let:label
+      >
+        <span>{@html label}</span>
+      </div>
+    </AutoCompleteV2>
+
     <span class="inline-flex gap-x-2 text-left">
       {#if selected && status && status.id !== 4 && status.id !== 5}
         <IconButton
@@ -691,7 +718,7 @@
   }
 
   .location {
-    @apply col-span-2 mr-4 mt-4 flex h-full items-center text-lg font-medium sm:col-span-1 sm:mt-0 sm:text-sm sm:font-normal md:col-span-4 lg:col-span-1 lg:justify-end lg:text-right;
+    @apply col-span-2 mr-4 mt-4 flex h-full items-center text-lg font-medium sm:col-span-1 sm:mt-0 sm:text-sm sm:font-normal md:col-span-1 lg:col-span-1 lg:justify-end lg:text-right;
   }
 
   ul.popover {

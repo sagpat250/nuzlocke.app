@@ -17,6 +17,8 @@
   import { drag } from '$utils/drag'
   import { locid } from '$utils/pokemon'
 
+  import { Abilities, AbilitiesMap } from '$lib/data/abilities'
+
   import {
     getGameStore,
     getBox,
@@ -422,12 +424,8 @@
                   ...Object.values(Pokemon[p.pokemon].baseStats)
                 )}
                 moves={[]}
-                ability={p.nickname
-                  ? {
-                      name:
-                        p.nickname + ' the ' + (p.nature || '').toLowerCase()
-                    }
-                  : null}
+                nickname={p.nickname || ''}
+                ability={p.ability ? AbilitiesMap[p.ability]?.label || '' : ''}
                 name={Pokemon[p.pokemon].name}
                 stats={Pokemon[p.pokemon].baseStats}
                 nature={p.nature}
@@ -494,7 +492,7 @@
                     {p.customName || p.location}
                   {:else if !p.location || (p.customId && !p.customName)}
                     Met in an unknown place
-                  {:else if p.customName}
+                  {:else if p.customName && p.customName.trim()}
                     Met {p.customName.startsWith('Route') ? 'on' : 'in'}
                     {p.customName}
                   {:else}
@@ -502,24 +500,22 @@
                     {p.location}
                   {/if}
 
-                  {#if !p.customName}
-                    <span class="mx-1">ǀ</span>
+                  <span class="mx-1">ǀ</span>
 
-                    <a
-                      class="inline border-b border-transparent transition hover:border-black hover:text-black dark:hover:text-gray-50"
-                      href={toDb(id)}
-                      title="Pokémon DB Link for {id}"
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      Info
-                      <Icon
-                        inline={true}
-                        icon={External}
-                        class="-mt-0.5 inline fill-current"
-                      />
-                    </a>
-                  {/if}
+                  <a
+                    class="inline border-b border-transparent transition hover:border-black hover:text-black dark:hover:text-gray-50"
+                    href={`https://bulbapedia.bulbagarden.net/wiki/${encodeURIComponent(Pokemon[p.pokemon].name)}_(Pokémon)`}
+                    title="Bulbapedia Link for {Pokemon[p.pokemon].name}"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Info
+                    <Icon
+                      inline={true}
+                      icon={External}
+                      class="-mt-0.5 inline fill-current"
+                    />
+                  </a>
 
                   <div
                     class:hidden={minimal}

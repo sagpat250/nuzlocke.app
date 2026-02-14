@@ -8,6 +8,7 @@
     moves,
     maxStat,
     held = '',
+    nickname = '',
     ability = '',
     stats,
     nature = undefined,
@@ -69,18 +70,28 @@
           <p
             class="pointer-events-auto relative z-40 -mb-1 h-4 w-auto text-xs sm:bg-transparent dark:sm:bg-transparent"
           >
-            {#if ability}
-              <span class:cursor-help={!!ability.effect}>
-                {#if ability.effect}
-                  <Tooltip>{ability.effect}</Tooltip>
-                {/if}
-
-                {ability.name}
+            {#if nickname && nature}
+              <span>
+                {nickname} the {nature.toLowerCase()}
+              </span>
+            {:else if nickname}
+              <span>
+                {nickname}
               </span>
             {/if}
           </p>
 
           {regionise(capitalise(name))}
+
+          <p
+            class="pointer-events-auto relative z-40 -mt-1 h-4 w-auto text-xs sm:bg-transparent dark:sm:bg-transparent"
+          >
+            {#if ability}
+              <span>
+                {ability}
+              </span>
+            {/if}
+          </p>
 
           {#if held}
             <div
