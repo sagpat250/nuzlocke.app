@@ -40,22 +40,24 @@
   class="relative w-1/2 text-center tracking-tighter md:mr-4 md:w-auto"
 >
   <span class="text-tiny">Max dmg</span>
-  <Icon
-    inline={true}
-    height="2.2rem"
-    class="mx-auto fill-current"
-    icon={Shield}
-  />
-  <span
-    class="absolute top-8 -mt-2 -translate-x-1/2 cursor-help font-mono text-2xl"
-  >
-    <Tooltip
-      >Based on {opp.name}'s moveset, the maximum damage they could could do to {team.name}
-      is {dmgModMap[dmg[team.alias][opp.alias] || 1]} damage.
-    </Tooltip>
+  <div class="relative inline-block">
+    <Icon
+      inline={true}
+      height="2.2rem"
+      class="mx-auto fill-current"
+      icon={Shield}
+    />
+    <span
+      class="absolute top-1/2 left-1/2 -mt-0.5 -translate-x-1/2 -translate-y-1/2 cursor-help font-mono text-xl"
+    >
+      <Tooltip
+        >Based on {opp.name}'s moveset, the maximum damage they could could do to {team.name}
+        is {dmgModMap[dmg[team.alias][opp.alias] || 1]} damage.
+      </Tooltip>
 
-    {toFraction(dmg[team.alias][opp.alias] || 1)}x
-  </span>
+      {toFraction(dmg[team.alias][opp.alias] || 1)}x
+    </span>
+  </div>
 </div>
 
 <!-- Phys vs Spec distribution -->

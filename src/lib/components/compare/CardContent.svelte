@@ -139,7 +139,7 @@
     </Accordion>
   </div>
 
-  <slot name="actions" />
+  <slot name="actions" currentOpponentId={gymId} />
 </CompareCard>
 
 {#key boxList}

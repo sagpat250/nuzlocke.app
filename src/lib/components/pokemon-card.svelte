@@ -14,6 +14,11 @@
     nature = undefined,
     minimal = false
 
+  // Handle ability as both string (Box tab) and object (Game tab gym pokemon)
+  $: abilityText = typeof ability === 'object' && ability?.name 
+    ? ability.name 
+    : ability || ''
+
   import { capitalise, regionise } from '$lib/utils/string'
   import { isEmpty } from '$lib/utils/obj'
 
@@ -87,9 +92,9 @@
           <p
             class="pointer-events-auto relative z-40 -mt-1 h-4 w-auto text-xs sm:bg-transparent dark:sm:bg-transparent"
           >
-            {#if ability}
+            {#if abilityText}
               <span>
-                {ability}
+                {abilityText}
               </span>
             {/if}
           </p>
