@@ -5,33 +5,12 @@
 
 <footer class={$$restProps.class || ''}>
   <p>
-	  <!--a href="https://www.buymeacoffee.com/nuzlocketracker"
-       rel=noreferrer target=_blank>
-      <button aria-label='Support me' title='Supprt me'>
-        <Icon inline={true} class='fill-current' icon={Coffee} />
-      </button>
-    </a-->
-
-    <a href="https://github.com/Bassel-T/nuzlocke.app/issues/new?assignees=&labels=&projects=&template=bug_report.md&title="
-       rel=noreferrer target=_blank>
-      <button aria-label='Report bugs' title='Report bugs'>
-        <Icon inline={true} class='fill-current' icon={GitHub} />
-      </button>
-    </a>
-
-    <a href="https://discord.gg/bmsPuMhmxb"
-       rel=noreferrer target=_blank>
-      <button aria-label='Discuss & follow new features' title='Discuss & follow new features'>
-        <Icon inline={true} class=' fill-current' icon={Discord} />
-      </button>
-    </a>
-
   </p>
 
 
-  <span class='inline-flex items-center mb-2'>Made with <Icon inline={true} icon={Heart} class='mx-1 fill-current text-red-500' /> by<strong class=ml-1>Domtronn</strong></span>
+  <span class='inline-flex items-center mb-2'>Made with <Icon inline={true} icon={Heart} class='mx-1 fill-current text-red-500' /> by<strong class=ml-1>Domtronn and Bassel</strong></span>
 	<br/>
-  <span class='inline-flex items-center mb-2'>Maintained with <Icon inline={true} icon={Heart} class='mx-1 fill-current text-red-500' /> by<strong class=ml-1>Bassel</strong></span>
+  <span class='inline-flex items-center mb-2'>Maintained with <Icon inline={true} icon={Heart} class='mx-1 fill-current text-red-500' /> by<strong class=ml-1>Sagar</strong></span>
   <br />
   All content & design © Pokémon Nuzlocke Tracker, 2021-{(new Date()).getFullYear()}. <a href='/privacy-policy'>Privacy Policy</a>. <a href='/credit'>Credits</a>.
   <br class='hidden md:block' />

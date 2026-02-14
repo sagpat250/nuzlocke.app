@@ -69,7 +69,7 @@
 
 <main>
   <h1 aria-level="1" class="mx-auto text-center font-mono text-4xl">
-    Pokémon
+    Sagar's
     <Picture
       src="/logo"
       loading="eager"
@@ -78,7 +78,7 @@
       alt="Nuzlocke logo"
       className="transition h-auto md:h-16 mt-2 mx-auto"
     />
-    tracker
+    Tracker
   </h1>
 
   <div>

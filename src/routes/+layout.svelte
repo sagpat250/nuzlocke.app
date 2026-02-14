@@ -14,10 +14,10 @@
     window.onunhandledrejection = createErrorModal
   })
 
-  const title = 'Nuzlocke Tracker'
-  const subtitle = 'Track encounters, analyse your team, be prepared'
+  const title = "Sagar's Nuzlocke Tracker"
+  const subtitle = 'My Personal Pokémon Journey'
   const description =
-    'Best application to track Pokémon encounters and prepare for every boss battle with details on stats, movesets, & abilities - never lose a Nuzlocke run again.'
+    'My custom Nuzlocke tracker for recording my Pokémon adventures and never losing a run again.'
 </script>
 
 <svelte:head>
