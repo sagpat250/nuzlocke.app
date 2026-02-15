@@ -79,5 +79,5 @@
     {opp.name}'s Type Matchups
   </span>
 
-  <TypeEffectiveness types={opp.types} />
+  <TypeEffectiveness types={opp.types} compact={true} />
 </div>

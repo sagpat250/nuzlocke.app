@@ -4,15 +4,18 @@
   import { capitalise } from '$lib/utils/string'
 
   export let types = []
+  export let compact = false // For Compare view - enables tighter wrapping
 
   $: effectiveness = calculateTypeEffectiveness(types)
   $: grouped = groupTypeEffectiveness(effectiveness)
   $: weaknesses = [...grouped.quadruple, ...grouped.double]
   $: resistances = [...grouped.quarter, ...grouped.half]
   $: immunities = grouped.immune
+  $: neutrals = grouped.neutral
 </script>
 
-<div class="type-effectiveness w-full">
+<div class="type-effectiveness w-full" class:compact>
+  <!-- WEAK TO - Only show if has weaknesses -->
   {#if weaknesses.length > 0}
     <div class="mb-3">
       <h4 class="mb-1.5 text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-400">
@@ -31,6 +34,7 @@
     </div>
   {/if}
 
+  <!-- RESISTS - Only show if has resistances -->
   {#if resistances.length > 0}
     <div class="mb-3">
       <h4 class="mb-1.5 text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-400">
@@ -49,6 +53,7 @@
     </div>
   {/if}
 
+  <!-- IMMUNE TO - Only show if has immunities -->
   {#if immunities.length > 0}
     <div class="mb-3">
       <h4 class="mb-1.5 text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-400">
@@ -66,10 +71,34 @@
       </div>
     </div>
   {/if}
+
+  <!-- NEUTRAL TO - Only show if has neutrals -->
+  {#if neutrals.length > 0}
+    <div class="mb-3">
+      <h4 class="mb-1.5 text-xs font-semibold uppercase tracking-wide text-gray-600 dark:text-gray-400">
+        Neutral To
+      </h4>
+      <div class="flex flex-wrap gap-1.5">
+        {#each neutrals as { type, multiplier }}
+          <div class="flex items-center gap-1 rounded-md bg-gray-100 px-2 py-1 dark:bg-gray-800">
+            <TypeBadge {type} />
+            <span class="text-xs font-bold text-gray-600 dark:text-gray-300">
+              {formatMultiplier(multiplier)}
+            </span>
+          </div>
+        {/each}
+      </div>
+    </div>
+  {/if}
 </div>
 
 <style lang="postcss">
   .type-effectiveness {
     @apply border-t border-gray-200 pt-3 dark:border-gray-700;
+  }
+  
+  /* Compact mode for Compare view - narrower containers force more wrapping */
+  .type-effectiveness.compact :global(.flex) {
+    @apply max-w-md;
   }
 </style>
