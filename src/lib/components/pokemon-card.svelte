@@ -19,10 +19,22 @@
     ? ability.name 
     : ability || ''
 
+  // Get ability ID for lookup (convert text to kebab-case ID)
+  $: abilityId = abilityText.toLowerCase().replace(/\s+/g, '-')
+  
+  // Get ability data from map
+  $: abilityData = AbilitiesMap[abilityId]
+
+  // Get held item data
+  $: heldItemId = held?.sprite?.toLowerCase().replace(/\s+/g, '-')
+  $: heldItemData = heldItemId ? (ItemsMap[heldItemId] || ItemsByName[held?.name?.toLowerCase()]) : null
+
   import { capitalise, regionise } from '$lib/utils/string'
   import { isEmpty } from '$lib/utils/obj'
 
   import { PIcon, Icon, Tooltip } from '$c/core'
+  import { AbilitiesMap } from '$lib/data/abilities'
+  import { ItemsMap, ItemsByName } from '$lib/data/items'
 
   import { Hand } from '$icons'
 
@@ -93,7 +105,20 @@
             class="pointer-events-auto relative z-40 -mt-1 h-4 w-auto text-xs sm:bg-transparent dark:sm:bg-transparent"
           >
             {#if abilityText}
-              <span>
+              <span class="cursor-help">
+                {#if abilityData}
+                  <Tooltip>
+                    <strong class="text-sm">{abilityText}</strong><br/>
+                    <span class="text-xs">{abilityData.description}</span>
+                    {#if abilityData.generationNote}
+                      <br/><span class="text-xs italic opacity-75">💡 {abilityData.generationNote}</span>
+                    {/if}
+                    {#if abilityData.generationChanges}
+                      <br/><span class="text-xs text-yellow-400">⚠️ {abilityData.generationChanges.modern}</span>
+                      <br/><span class="text-xs opacity-75">📜 {abilityData.generationChanges.legacy}</span>
+                    {/if}
+                  </Tooltip>
+                {/if}
                 {abilityText}
               </span>
             {/if}
@@ -104,7 +129,12 @@
               class="pointer-events-auto absolute right-0 -bottom-0.5 z-20 mb-1 flex translate-x-full cursor-help flex-col items-center p-1"
             >
               <Tooltip>
-                {held.name}: {held.effect?.replace(/^Held: +/g, '')}
+                {#if heldItemData}
+                  <strong class="text-sm">{held.name}</strong><br/>
+                  <span class="text-xs">{heldItemData.description}</span>
+                {:else}
+                  {held.name}
+                {/if}
               </Tooltip>
               <span>
                 <PIcon type="item" name={held.sprite} />
