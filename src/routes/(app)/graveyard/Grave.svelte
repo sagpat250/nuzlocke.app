@@ -2,7 +2,8 @@
   export let pokemon,
     nickname = '',
     death = {},
-    id
+    id,
+    shiny = false
 
   import { capitalise, regionise } from '$lib/utils/string'
   import { IMG, createImgUrl } from '$utils/rewrites'
@@ -98,7 +99,7 @@
       <img
         class="pkmn z-10 -mt-4 -mb-7 mix-blend-darken"
         alt="{nickname} the {pokemon}"
-        src={createImgUrl(Pokemon, { ext: 'png' })}
+        src={createImgUrl(Pokemon, { ext: 'png', shiny })}
       />
     {/if}
 

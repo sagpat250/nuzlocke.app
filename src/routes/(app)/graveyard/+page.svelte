@@ -146,6 +146,7 @@
                 pokemon={p.pokemon}
                 nickname={p.nickname}
                 death={p?.death}
+                shiny={p.shiny}
                 on:click={handleEdit(p)}
               >
                 <svelte:fragment slot="badges">

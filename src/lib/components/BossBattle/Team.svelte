@@ -7,10 +7,10 @@
 
   import { createImgUrl } from '$utils/rewrites'
 
-  const sprite = (p, status) => {
+  const sprite = (p) => {
     return createImgUrl(
       { imgId: p?.original?.sprite || p?.imgId, imgUrl: p.imgUrl },
-      { ext: 'png', shiny: status === 6 }
+      { ext: 'png', shiny: p?.original?.shiny || p?.original?.status === 6 }
     )
   }
 

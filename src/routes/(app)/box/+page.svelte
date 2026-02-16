@@ -415,7 +415,7 @@
               <PokemonCard
                 {minimal}
                 sprite={createImgUrl(Pokemon[p.pokemon], {
-                  shiny: p.status === 6,
+                  shiny: p.shiny || p.status === 6,
                   ext: 'png'
                 })}
                 fallback={UNOWN}
@@ -458,7 +458,7 @@
                       />
                     </span>
                   {/if}
-                  {#if p.status === 6}
+                  {#if p.shiny || p.status === 6}
                     <Icon
                       inline={true}
                       icon={Shiny}

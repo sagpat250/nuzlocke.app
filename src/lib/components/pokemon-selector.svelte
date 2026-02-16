@@ -41,7 +41,7 @@
 
   import { createEventDispatcher, onMount, getContext } from 'svelte'
 
-  let selected, nickname, status, nature, ability, hidden, death
+  let selected, nickname, status, nature, ability, hidden, death, shiny
   let prevstatus = 'loading'
 
   // Search text bindings for ACs
@@ -126,6 +126,7 @@
         hidden = pkmn.hidden
         nickname = pkmn.nickname
         death = pkmn.death
+        shiny = pkmn.shiny || false
         if (pkmn.pokemon)
           getPkmn(pkmn.pokemon).then((p) => {
             selected = p
@@ -144,6 +145,7 @@
     location: locationName || location,
     ...(nickname ? { nickname } : {}),
     ...(hidden ? { hidden: true } : {}),
+    ...(shiny ? { shiny: true } : {}),
     ...(status?.id === 5 && death ? { death } : {})
   });
 
@@ -201,7 +203,7 @@
   }
 
   function handleClear() {
-    status = nickname = selected = death = resetd = null
+    status = nickname = selected = death = resetd = shiny = null
     search = statusSearch = natureSearch = abilitySearch = null
     store.update(
       patch({
@@ -508,27 +510,42 @@
       </div>
     </AutoCompleteV2>
 
-    <AutoCompleteV2
-      itemF={(_) => Abilities}
-      max={Abilities.length}
-      bind:search={abilitySearch}
-      bind:selected={ability}
-      id="{location} Ability"
-      name="{location} Ability"
-      placeholder="Ability"
-      class="col-span-1 {!selected || status?.id === 4 || hidden
-        ? 'hidden sm:block'
+    <span
+      class="col-span-1 inline-flex items-center gap-x-1 {!selected || status?.id === 4 || hidden
+        ? 'hidden sm:flex'
         : ''}"
     >
-      <div
-        class="group -mx-1 flex inline-flex w-full items-center justify-between py-2 px-1 md:py-3"
-        slot="option"
-        let:option
-        let:label
+      <AutoCompleteV2
+        itemF={(_) => Abilities}
+        max={Abilities.length}
+        bind:search={abilitySearch}
+        bind:selected={ability}
+        id="{location} Ability"
+        name="{location} Ability"
+        placeholder="Ability"
+        class="min-w-0 flex-1"
       >
-        <span>{@html label}</span>
-      </div>
-    </AutoCompleteV2>
+        <div
+          class="group -mx-1 flex inline-flex w-full items-center justify-between py-2 px-1 md:py-3"
+          slot="option"
+          let:option
+          let:label
+        >
+          <span>{@html label}</span>
+        </div>
+      </AutoCompleteV2>
+
+      <label
+        class="flex h-10 flex-shrink-0 cursor-pointer items-center rounded-lg border-2 px-1.5 shadow-sm transition dark:border-gray-600"
+        class:border-amber-400={shiny}
+        class:bg-amber-50={shiny}
+        class:dark:bg-amber-900={shiny}
+        title="Toggle shiny"
+      >
+        <input type="checkbox" class="sr-only" bind:checked={shiny} />
+        <span class="text-sm" class:grayscale={!shiny} class:opacity-50={!shiny}>&#10024;</span>
+      </label>
+    </span>
 
     <span class="inline-flex gap-x-2 text-left">
       {#if selected && status && status.id !== 4 && status.id !== 5}

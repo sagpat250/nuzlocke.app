@@ -16,10 +16,10 @@
   $: atk = pokemon[0]
   $: def = pokemon[1]
 
-  const sprite = (p, status) =>
+  const sprite = (p) =>
     createImgUrl(
       { imgId: p?.original?.sprite ?? p.imgId, imgUrl: p.imgUrl },
-      { ext: 'png', shiny: status === 6 }
+      { ext: 'png', shiny: p?.original?.shiny || p?.original?.status === 6 }
     )
 </script>
 
@@ -74,7 +74,7 @@
           in:fade={{ duration: 500 }}
           class="flip z-20 -mx-6 flex h-32 w-32"
           style="transform: scaleX(-1); "
-          src={sprite(atk, atk.status)}
+          src={sprite(atk)}
         />
       {/key}
       {#key `def__${def.name}`}
