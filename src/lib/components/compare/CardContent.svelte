@@ -20,6 +20,7 @@
   }
 
   const select = (p) => p?.original?.icon || p?.sprite
+  const isShiny = (p) => p?.original?.shiny || p?.original?.status === 6
   const set = (id) => () => {
     id == Active.Box ? (teamId = -1) : (boxId = -1)
     active = id
@@ -156,6 +157,7 @@
       pageSize={6}
       list={boxList}
       {select}
+      {isShiny}
     >
       {#key compare[0]}
         <button
@@ -192,6 +194,7 @@
         list={team}
         title="Your team"
         {select}
+        {isShiny}
       />
     {/key}
   </div>
@@ -205,6 +208,7 @@
       title="Gym team"
       list={gym}
       {select}
+      {isShiny}
       deadPokemon={deadOpponents}
     />
   </div>

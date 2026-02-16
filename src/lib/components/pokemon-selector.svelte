@@ -382,6 +382,7 @@
 
                   <PIcon
                     name={selected.sprite}
+                    {shiny}
                     className="{gray ? 'grayscale' : ''} {iconClass}"
                   />
                 {:else}

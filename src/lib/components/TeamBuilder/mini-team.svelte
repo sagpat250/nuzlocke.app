@@ -105,6 +105,7 @@
         <PIcon
           class="data-drag-img pointer-events-none absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 scale-150 transform"
           name={p?.[iconKey]}
+          shiny={p?.shiny || false}
         />
       </span>
 

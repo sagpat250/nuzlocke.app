@@ -3,6 +3,7 @@
     list,
     pageSize = 5,
     select = (i) => i,
+    isShiny = (i) => false,
     className = '',
     title = '',
     showcontrols = false,
@@ -79,7 +80,7 @@
           dispatch('select')
         }}
       >
-        <PIcon name={select(p)} />
+        <PIcon name={select(p)} shiny={isShiny(p)} />
         {#if isDead}
           <span class="dead-indicator absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl font-bold text-red-600" aria-label="Defeated">
             ✕
