@@ -145,7 +145,7 @@
     location: locationName || location,
     ...(nickname ? { nickname } : {}),
     ...(hidden ? { hidden: true } : {}),
-    ...(shiny ? { shiny: true } : {}),
+    ...(shiny ? { shiny: true, imgId: selected?.imgId } : {}),
     ...(status?.id === 5 && death ? { death } : {})
   });
 
@@ -383,6 +383,7 @@
                   <PIcon
                     name={selected.sprite}
                     {shiny}
+                    imgId={selected?.imgId}
                     className="{gray ? 'grayscale' : ''} {iconClass}"
                   />
                 {:else}
