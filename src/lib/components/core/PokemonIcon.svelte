@@ -7,28 +7,11 @@
 </script>
 
 <span class="pk{type}-wrapper {$$restProps.class || ''} {className}">
-  {#if shiny && imgId}
-    <img
-      src="/assets/img/pokemon/shiny-{imgId}.png"
-      alt=""
-      class="pkm-shiny-img"
-    />
-  {:else}
-    <i
-      class:pkm-sevii={name?.includes('sevii')}
-      class:pkm-hoennian={name?.includes('-hoenn')}
-      class="pk{type} pk{type}-{name}"
-    />
-  {/if}
+  <i
+    class:pkm-sevii={name?.includes('sevii')}
+    class:pkm-hoennian={name?.includes('-hoenn')}
+    class:shiny
+    class="pk{type} pk{type}-{name}"
+  />
   <slot />
 </span>
-
-<style>
-  .pkm-shiny-img {
-    display: inline-block;
-    max-height: 24px;
-    width: auto;
-    image-rendering: pixelated;
-    vertical-align: middle;
-  }
-</style>
