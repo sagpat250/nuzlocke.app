@@ -102,3 +102,4 @@
     @apply max-w-md;
   }
 </style>
+
